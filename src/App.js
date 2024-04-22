@@ -2,6 +2,10 @@ import React from "react";
 import img1 from "./diamond.jpeg"
 import { NavBar } from "./components/Navbar";
 import Header from "./components/Header";
+import { Venue } from "./components/venue";
+import { Timeline } from "./components/timeline";
+import { Tracks } from "./components/tracks";
+import { Footer } from "./components/footer";
 
 export default function HeroComponent() {
   return (
@@ -25,6 +29,19 @@ export default function HeroComponent() {
           </div>
         </div>
       </div>
+      <hr
+      className="my-10 w-[300px] mx-auto h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-300 to-transparent opacity-25 dark:opacity-100"
+    />
+      <Timeline/>
+      <hr
+      className="my-10 w-[300px] mx-auto h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-300 to-transparent opacity-25 dark:opacity-100"
+    />
+      <Tracks/>
+      <hr
+      className="my-10 w-[300px] mx-auto h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-300 to-transparent opacity-25 dark:opacity-100"
+    />
+      <Venue></Venue>
+      <Footer/>
     </>
   );
 }

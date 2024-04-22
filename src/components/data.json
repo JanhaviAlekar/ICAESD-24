@@ -1,0 +1,97 @@
+{
+    "tracks": [
+      {
+        "track_id": 1,
+        "track_name": "Civil Engineering",
+        "topics": [
+          "Environmental sustainability and development",
+          "Geo-hazards and risk assessment",
+          "Earthquake resistant structures",
+          "Structural health monitoring",
+          "Building energy management",
+          "Advances in Civil and Structural Engineering"
+        ]
+      },
+      {
+        "track_id": 2,
+        "track_name": "Mechanical Engineering",
+        "topics": [
+          "New & Renewable Energy Sources",
+          "Industry 4.0",
+          "Recent Trends in Automobiles",
+          "Advances in Manufacturing",
+          "Industrial Engineering",
+          "4th Generation Biofuels"
+        ]
+      },
+      {
+        "track_id": 3,
+        "track_name": "Electrical Engineering",
+        "topics": [
+          "Electrical Vehicles",
+          "Deregulated Power Systems and Smart Grid",
+          "Power Electronics and Drives",
+          "AI/ML applications in Electrical Engineering",
+          "Optimization Techniques"
+        ]
+      },
+      {
+        "track_id": 4,
+        "track_name": "Electronics & Telecommunication Engineering",
+        "topics": [
+          "Intelligence system for soft computing",
+          "VLSI & Embedded system design",
+          "Analog & Mixed circuits systems",
+          "Communication Systems and Signal Processing",
+          "Cognitive Radio and Cognitive Networks"
+        ]
+      },
+      {
+        "track_id": 5,
+        "track_name": "Computer Science Engineering",
+        "topics": [
+          "Internet Technology and Society",
+          "Smart Technology, Artificial intelligence.",
+          "Advances in Software and Computing Technology.",
+          "Big data,IoT and Machine Learning.",
+          "Wireless Network, ubiquitous network."
+        ]
+      },
+      {
+        "track_id": 6,
+        "track_name": "Information Technology",
+        "topics": [
+          "Impact of IT on Societal Development & Sustainable Growth",
+          "Advanced Algorithms and Machine Learning",
+          "Machine Learning and Deep Learning",
+          "Network and Cyber Security",
+          "Applications of Internet of Things and Cloud Computing",
+          "Impact of Multi Strategy on Learning Environment"
+        ]
+      },
+      {
+        "track_id": 7,
+        "track_name": "Instrumentation Engineering",
+        "topics": [
+          "Automation and Control",
+          "Advances in Signal and image processing application in instrumentation area",
+          "New Generation Biomedical Equipment",
+          "Advance sensor technology",
+          "IoT base instrumentation application"
+        ]
+      },
+      {
+        "track_id": 8,
+        "track_name": "Basic Science & Humanities",
+        "topics": [
+          "Nano science And Nanotechnology",
+          "Mathematics, Statistics And Applied Science",
+          "Emerging Trends In Chemistry",
+          "Indian Knowledge System",
+          "National Environmental Science",
+          "Human Values"
+        ]
+      }
+    ]
+  }
+  
