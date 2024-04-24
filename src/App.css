@@ -36,3 +36,31 @@
     transform: rotate(360deg);
   }
 }
+
+.scroll-container {
+  overflow-y: hidden;
+  height: 200px; /* Set the height of the container as needed */
+  width: 100%; /* Set the width of the container */
+}
+
+.scroll-content {
+  animation: scroll 10s linear infinite; /* Adjust the animation duration and timing function as needed */
+}
+
+@keyframes scroll {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(-100%);
+  }
+}
+
+.paused {
+  animation-play-state: paused;
+}
+
+.scroll-item {
+  display: block;
+  padding: 10px;
+}

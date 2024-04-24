@@ -1,4 +1,4 @@
-import diamond from"../diamond.jpeg"
+import diamond from"./diamond.jpeg"
 
 export default function Header() {
     return (
