@@ -7,7 +7,7 @@ export const Hero = () => {
           <img src={diamond} alt="img1" className="absolute z-10 w-[64px] h-[64px] top-14"></img>
         </div>
   <div class="absolute inset-0">
-    <img src={img1} alt="Background Image" class="object-cover object-center w-full h-full" />
+    <img src={img1} alt="Background" class="object-cover object-center w-full h-full" />
     <div class="absolute inset-0 bg-black opacity-60"></div>
   </div>
   
@@ -16,7 +16,7 @@ export const Hero = () => {
     <h3 className="lg:text-6xl text-3xl font-bold lg:font-extrabold">ICARTET 2024</h3>
     <p class="text-xl font-semibold text-gray-300 mt-3">Government College Of engineering,Amravati</p>
     <p class="text-xl font-semibold text-gray-300  mb-6">Date: 20,21 December,2024</p>
-    <a href="#" class="text-white bg-[#33358c]  hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition  hover:text-[#33358c]">Submit your Paper</a>
+    <a href="www.google.com" class="text-white bg-[#33358c]  hover:bg-yellow-300 py-2 px-6 rounded-full text-lg font-semibold transition  hover:text-[#33358c]">Submit your Paper</a>
   </div>
 </div>
 

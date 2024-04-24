@@ -1,5 +1,4 @@
-import data from "./data.json"
-import date from "./date.svg"
+
 export const Tracks = () => {
 
     return(

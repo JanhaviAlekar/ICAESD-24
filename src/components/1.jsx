@@ -44,40 +44,40 @@ export const NavBar = () => {
 <div id="dropdown" class="z-20 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44  ">
     <ul class="py-2 text-sm text-[#33358c] " aria-labelledby="dropdownDefaultButton">
       <li>
-        <a href="#" class="block px-4 py-2  :hover:text-[#33358c] hover:bg-gray-200">Dashboard</a>
+        <a href="www.google.com" class="block px-4 py-2  :hover:text-[#33358c] hover:bg-gray-200">Dashboard</a>
       </li>
       <li>
-        <a href="#" class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200">Settings</a>
+        <a href="www.google.com" class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200">Settings</a>
       </li>
       <li>
-        <a href="#" class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200">Earnings</a>
+        <a href="www.google.com" class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200">Earnings</a>
       </li>
       <li>
-        <a href="#" class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200">Sign out</a>
+        <a href="www.google.com" class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200">Sign out</a>
       </li>
     </ul>
 </div>
 
-<a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
+<a href="www.google.com" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
                 Publication
               </a>
-            <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
+            <a href="www.google.com" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
              Agenda
             </a>
 
-            <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
+            <a href="www.google.com" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
               Committees
             </a>
-            <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
+            <a href="www.google.com" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
               Contact
             </a>
-            <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
+            <a href="www.google.com" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
               Register
             </a>
-            <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
+            <a href="www.google.com" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
               Venue
             </a>
-            <a href="#" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
+            <a href="www.google.com" className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4">
               Participation Policy
             </a>
             

@@ -1,12 +1,8 @@
 import React from "react";
-import Header from "./components/Header";
 import { Venue } from "./components/venue";
-import { Timeline } from "./components/timeline";
 import { Tracks } from "./components/tracks";
 import { Footer } from "./components/footer";
-import img1 from "./components/img12.JPG"
 import {NavBar} from "./components/1";
-import lok from "./components/mahaLogo.png"
 import { Hero } from "./components/Hero";
 import AutoScrollList from "./components/list";
 import { About } from "./components/about";
