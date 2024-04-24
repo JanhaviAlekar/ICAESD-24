@@ -4,7 +4,7 @@ export const Hero = () => {
     return (
         <div class="relative mt-20 bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
         <div className="flex lg:flex-row justify-center items-center bg-black ">
-          <img src={diamond} className="absolute z-10 w-[64px] h-[64px] top-14"></img>
+          <img src={diamond} alt="img1" className="absolute z-10 w-[64px] h-[64px] top-14"></img>
         </div>
   <div class="absolute inset-0">
     <img src={img1} alt="Background Image" class="object-cover object-center w-full h-full" />

@@ -7,7 +7,7 @@ export const Tracks = () => {
         <h1 className="text-white text-3xl  font-bold flex justify-center items-center mb-4">Tracks</h1>
         {/* <div className="grid grid-cols-3 px-16">
           <div>
-            <img src={date} className="w-16 h-16/"/>
+            <img alt="img1" src={date} className="w-16 h-16/"/>
           </div>
           <div>cse</div>
           <div>cse</div>

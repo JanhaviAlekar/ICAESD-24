@@ -29,7 +29,7 @@ export const Venue = () => {
 {/* <ol class="relative border-s border-gray-200  ml-8">                  
     <li class="mb-10 ms-6  ">            
         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white  dark:bg-blue-900">
-     <img src={svgDate} className="bg-white "/>
+     <img src={svgDate} className="bg-white alt="img1" "/>
         </span>
         <h3 class="flex items-center mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Application UI v2.0.0 </h3>
         <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on January 13th, 2022</time>
@@ -37,28 +37,28 @@ export const Venue = () => {
     </li>
     <li class="mb-10 ms-6">
         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white  dark:bg-blue-900">
-     <img src={svgDate} className="bg-white "/>
+     <img src={svgDate} className="bg-white  alt="img1""/>
         </span>
         <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Figma v1.3.0</h3>
         <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 7th, 2021</time>
     </li>
     <li class="mb-10 ms-6">
         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white  dark:bg-blue-900">
-        <img src={svgDate} className="bg-white "/>
+        <img src={svgDate} className="bg-white alt="img1""/>
         </span>
         <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.2.2</h3>
         <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2nd, 2021</time>
     </li>
     <li class="ms-6 mb-10">
         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white  dark:bg-blue-900">
-        <img src={svgDate} className="bg-white "/>
+        <img src={svgDate} className="bg-white alt="img1""/>
         </span>
         <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.2.2</h3>
         <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2nd, 2021</time>
     </li>
     <li class="ms-6 ">
         <span class="absolute flex items-center justify-center w-6 h-6 bg-blue-100 rounded-full -start-3 ring-8 ring-white  dark:bg-blue-900">
-        <img src={svgDate} className="bg-white "/>
+        <img src={svgDate} className="bg-white alt="img1""/>
         </span>
         <h3 class="mb-1 text-lg font-semibold text-gray-900 dark:text-white">Flowbite Library v1.2.2</h3>
         <time class="block mb-2 text-sm font-normal leading-none text-gray-400 dark:text-gray-500">Released on December 2nd, 2021</time>
