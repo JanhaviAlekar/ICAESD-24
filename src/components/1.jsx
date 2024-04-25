@@ -5,7 +5,7 @@ export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-50 bg-[#FAFAFA] text-[#33358c] shadow-md">
+    <nav className="absolute top-0 left-0 w-full z-50 bg-[#fff] text-[#33358c] shadow-md">
       <div className="flex items-center justify-evenly   flex-wrap p-2">
         <div className="flex items-center justify-center flex-shrink-0 mr-14 ">
           <img src={locofy} className="w-[64px] h-[64px] mr-4" alt="Logo" />
@@ -44,16 +44,28 @@ export const NavBar = () => {
 <div id="dropdown" class="z-20 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44  ">
     <ul class="py-2 text-sm text-[#33358c] " aria-labelledby="dropdownDefaultButton">
       <li>
-        <a href="www.google.com" class="block px-4 py-2  :hover:text-[#33358c] hover:bg-gray-200">Dashboard</a>
+        <a href="www.google.com" class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200">About</a>
       </li>
       <li>
-        <a href="www.google.com" class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200">Settings</a>
+        <a href="www.google.com" class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200">CFP</a>
       </li>
       <li>
-        <a href="www.google.com" class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200">Earnings</a>
+        <a href="www.google.com" class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200">Important Dates</a>
       </li>
       <li>
-        <a href="www.google.com" class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200">Sign out</a>
+        <a href="www.google.com" class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200">Submission Guidelines</a>
+      </li>
+      <li>
+        <a href="www.google.com" class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200">Conference Tracks</a>
+      </li>
+      <li>
+        <a href="www.google.com" class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200">Publishing and Indexing</a>
+      </li>
+      <li>
+        <a href="www.google.com" class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200">Special Session</a>
+      </li>
+      <li>
+        <a href="www.google.com" class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200">Important Links</a>
       </li>
     </ul>
 </div>

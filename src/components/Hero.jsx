@@ -1,14 +1,10 @@
 import img1 from "./clg.jpg"
-import diamond from "./diamond.jpeg"
 export const Hero = () => {
     return (
-        <div class="relative mt-20 bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
-        <div className="flex lg:flex-row justify-center items-center bg-black ">
-          <img src={diamond} alt="img1" className="absolute z-10 w-[64px] h-[64px] top-14"></img>
-        </div>
+        <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
   <div class="absolute inset-0">
     <img src={img1} alt="Background" class="object-cover object-center w-full h-full" />
-    <div class="absolute inset-0 bg-black opacity-60"></div>
+    <div class="absolute inset-0 bg-black opacity-40"></div>
   </div>
   
   <div class="relative z-10 flex flex-col justify-center items-center h-full text-center m-2 lg:m-0">
