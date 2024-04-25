@@ -5,7 +5,7 @@ export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-50 bg-[#fff] text-[#33358c] shadow-md">
+    <nav className="absolute top-0 left-0 w-full z-50 bg-[#fff] text-[#ffd901] shadow-md">
       <div className="flex items-center justify-evenly   flex-wrap p-2">
         <div className="flex items-center justify-center flex-shrink-0 mr-14 ">
           <img src={locofy} className="w-[64px] h-[64px] mr-4" alt="Logo" />
@@ -33,9 +33,9 @@ export const NavBar = () => {
           </button>
         </div>
         <div className={`w-full lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"}`}>
-          <div className="text-md font-semibold lg:flex-wrap text-[#33358c]">
+          <div className="text-md font-semibold lg:flex-wrap ">
      
- <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class="text-[#33358c]  hover:bg-gray-200  hover:rounded-lg   text-md  py-2.5 text-center inline-flex items-center  text-[#33358c]-200 " type="button">About
+ <button id="dropdownDefaultButton" data-dropdown-toggle="dropdown" class=" hover:bg-gray-200  hover:rounded-lg   text-md  py-2.5 text-center inline-flex items-center  text-[#33358c]-200 " type="button">About
   <svg class="w-2.5 h-2.5 ms-1 mr-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
 </svg>
