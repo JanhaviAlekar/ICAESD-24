@@ -1,0 +1,50 @@
+{
+    "tracks": [
+      {
+        "title": "Electronics System Design & Manufacturing"
+      },
+      {
+        "title": "Communications Systems & Signal Processing"
+      },
+      {
+        "title": "Internet Technology & Society"
+      },
+      {
+        "title": "Big Data and Internet of Things"
+      },
+      {
+        "title": "Machine Learning and Deep Learning"
+      },
+      {
+        "title": "Network and Cyber Security"
+      },
+      {
+        "title": "New Generation Biomedical Equipment"
+      },
+      {
+        "title": "IoT Based Instrumentation Application"
+      },
+      {
+        "title": "Nano Science and Nanotechnology"
+      },
+      {
+        "title": "Geo-Hazards and Risk Assessment"
+      },
+      {
+        "title": "Structural Health Monitoring"
+      },
+      {
+        "title": "New & Renewable Energy Sources"
+      },
+      {
+        "title": "Advances in Manufacturing"
+      },
+      {
+        "title": "Power Electronics and Drives"
+      },
+      {
+        "title": "AI/ML Applications in Electrical Engineering"
+      }
+    ]
+  }
+  

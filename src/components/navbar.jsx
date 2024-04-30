@@ -1,0 +1,192 @@
+import React, { useState } from "react";
+import locofy from "./assests/diamond.jpeg";
+import mahalogo from "./assests/mahaLogo.png"
+
+export const NavBar = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  return (
+    <nav className="absolute top-0 left-0 w-full z-50 bg-[#fff] text-[#33358c]  shadow-md">
+      <div className="flex items-center justify-between lg:justify-evenly   flex-wrap p-2">
+        <div className="flex items-center justify-center flex-shrink-0 mr-2 md:mr-14 ">
+          <img src={locofy} className="w-[74px] h-[74px]  mr-4" alt="Logo" />
+          <p className="tetx-white font-bold text-xl lg:text-3xl">ICAESD'24</p>
+        </div>
+        <div className="block lg:hidden">
+          <button
+            onClick={() => setIsOpen(!isOpen)}
+            className="flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400"
+          >
+            <svg
+              className={`fill-current h-3 w-3 ${isOpen ? "hidden" : "block"}`}
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+            </svg>
+            <svg
+              className={`fill-current h-3 w-3 ${isOpen ? "block" : "hidden"}`}
+              viewBox="0 0 20 20"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+            </svg>
+          </button>
+        </div>
+        <div
+          className={`w-full lg:flex lg:items-center lg:w-auto ${
+            isOpen ? "block" : "hidden"
+          }`}
+        >
+          <div className="text-md font-semibold lg:flex-wrap ">
+            <button
+              id="dropdownDefaultButton"
+              data-dropdown-toggle="dropdown"
+              class=" hover:bg-gray-200  hover:rounded-lg   text-md  py-2.5 text-center inline-flex items-center  text-[#33358c]-200 "
+              type="button"
+            >
+              About
+              <svg
+                class="w-2.5 h-2.5 ms-1 mr-4"
+                aria-hidden="true"
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 10 6"
+              >
+                <path
+                  stroke="currentColor"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="m1 1 4 4 4-4"
+                />
+              </svg>
+            </button>
+
+            <div
+              id="dropdown"
+              class="z-20 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44  "
+            >
+              <ul
+                class="py-2 text-sm text-[#33358c] "
+                aria-labelledby="dropdownDefaultButton"
+              >
+                <li>
+                  <a
+                    href="www.google.com"
+                    class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
+                  >
+                    About
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="www.google.com"
+                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
+                  >
+                    CFP
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="www.google.com"
+                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
+                  >
+                    Important Dates
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="www.google.com"
+                    class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
+                  >
+                    Submission Guidelines
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="www.google.com"
+                    class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200"
+                  >
+                    Conference Tracks
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="www.google.com"
+                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
+                  >
+                    Publishing and Indexing
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="www.google.com"
+                    class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
+                  >
+                    Special Session
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="www.google.com"
+                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
+                  >
+                    Important Links
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <a
+              href="www.google.com"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+            >
+              Publication
+            </a>
+            <a
+              href="www.google.com"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+            >
+              Agenda
+            </a>
+
+            <a
+              href="www.google.com"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+            >
+              Committees
+            </a>
+            <a
+              href="www.google.com"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+            >
+              Contact
+            </a>
+            <a
+              href="www.google.com"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+            >
+              Register
+            </a>
+            <a
+              href="www.google.com"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+            >
+              Venue
+            </a>
+            <a
+              href="www.google.com"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+            >
+              Participation Policy
+            </a>
+          </div>
+          <div className="flex">
+          <img src={mahalogo} className="w-[64px] h-[64px] mr-4" alt="Logo" />
+        </div>
+        </div>
+      </div>
+    </nav>
+  );
+};

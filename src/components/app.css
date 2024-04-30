@@ -24,4 +24,9 @@
     display: block;
     padding: 10px;
   }
-  
+  .swiper-wrapper {
+    justify-content: space-between;
+  }
+  .swiper-pagination{
+    position: static !important;
+  }
