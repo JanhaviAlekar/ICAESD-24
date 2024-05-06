@@ -9,9 +9,8 @@ import 'swiper/css/navigation';
 import { Autoplay, Pagination } from 'swiper/modules';
 // Avatar
 import AvatarCard from './SponsorCard';
-import users from './users';
 
-function SliderSponsor() {
+function SliderSponsor({users}) {
 
   return (
       <Swiper

@@ -1,8 +1,8 @@
-import  dd from "../assests/notable speakers/devendradeskmukh.jpg"
-import  jg from "../assests/notable speakers/jagdishChand.png"
-import sh from "../assests/notable speakers/sarojh.png"
-import mk from "../assests/notable speakers/maheshKholekr.png"
-import mohankolhe from "../assests/notable speakers/mohanKolhe1.png"
+import  dd from "./devendradeskmukh.jpg"
+import  jg from "./jagdishChand.png"
+import sh from "./sarojh.png"
+import mk from "./maheshKholekr.png"
+import mohankolhe from "./mohanKolhe1.png"
 //notable speakers
 const users = [
   {

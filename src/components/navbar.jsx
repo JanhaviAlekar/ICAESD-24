@@ -1,17 +1,22 @@
 import React, { useState } from "react";
 import locofy from "./assests/diamond.jpeg";
-import mahalogo from "./assests/mahaLogo.png"
+import mahalogo from "./assests/mahaLogo.png";
+import { Link } from "react-router-dom";
 
 export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-50 bg-[#fff] text-[#33358c]  shadow-md">
-      <div className="flex items-center justify-between lg:justify-evenly   flex-wrap p-2">
+    <nav className="absolute top-0 left-0 w-full z-50 bg-[#fff] text-[#33358c]  shadow-md ">
+      <div className="flex items-center justify-between lg:justify-between   flex-wrap p-2 pb-0 mx-0 lg:mx-1">
+        <Link to="/">
         <div className="flex items-center justify-center flex-shrink-0 mr-2 md:mr-14 ">
           <img src={locofy} className="w-[74px] h-[74px]  mr-4" alt="Logo" />
-          <p className="tetx-white font-bold text-xl lg:text-3xl">ICAESD'24</p>
+          <p className=" font-bold text-xl lg:text-3xl tracking-wide">
+            ICAESD'24
+          </p>
         </div>
+        </Link>
         <div className="block lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -38,16 +43,16 @@ export const NavBar = () => {
             isOpen ? "block" : "hidden"
           }`}
         >
-          <div className="text-md font-semibold lg:flex-wrap ">
+          <div className="text-md font-medium lg:flex-wrap ">
             <button
               id="dropdownDefaultButton"
               data-dropdown-toggle="dropdown"
-              class=" hover:bg-gray-200  hover:rounded-lg   text-md  py-2.5 text-center inline-flex items-center  text-[#33358c]-200 "
+              className=" hover:rounded-lg text-md  text-center inline-flex items-center text-[#33358c]-200 group relative"
               type="button"
             >
               About
               <svg
-                class="w-2.5 h-2.5 ms-1 mr-4"
+                className="w-2.5 h-2.5 ms-1 mr-4 group-hover:text-[#33358c] pl-0.5"
                 aria-hidden="true"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -55,12 +60,13 @@ export const NavBar = () => {
               >
                 <path
                   stroke="currentColor"
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="m1 1 4 4 4-4"
                 />
               </svg>
+              <div className="absolute bottom-0 left-0 bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </button>
 
             <div
@@ -138,53 +144,74 @@ export const NavBar = () => {
               </ul>
             </div>
 
-            <a
-              href="www.google.com"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+            <Link
+              to="/author-guide"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
             >
-              Publication
-            </a>
-            <a
-              href="www.google.com"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+              Guideline
+              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </Link>
+
+            <Link
+               to="/agenda"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
             >
               Agenda
-            </a>
+              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </Link>
+            
 
-            <a
-              href="www.google.com"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+            <Link
+              to="/committees"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
             >
               Committees
-            </a>
-            <a
-              href="www.google.com"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </Link>
+            <Link
+               to="/contact"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
             >
               Contact
-            </a>
-            <a
-              href="www.google.com"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </Link>
+            <Link
+              to="/registration"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
             >
               Register
-            </a>
-            <a
-              href="www.google.com"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
-            >
-              Venue
-            </a>
-            <a
-              href="www.google.com"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
+              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </Link>
+            {/* {
+              isMainPage ? 
+              <a
+                href="#venue"
+                className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4"
+              >
+                Venue
+              </a>
+              :
+                <Link
+                to='/#venue'
+                className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4"
+              >
+                Venue
+              </Link>
+              
+
+            } */}
+
+            <Link
+              to="/participation-policy"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
             >
               Participation Policy
-            </a>
+              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </Link>
           </div>
           <div className="flex">
-          <img src={mahalogo} className="w-[64px] h-[64px] mr-4" alt="Logo" />
-        </div>
+            <img src={mahalogo} className="w-[64px] h-[64px] mr-4" alt="Logo" />
+          </div>
         </div>
       </div>
     </nav>
