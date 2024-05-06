@@ -1,4 +1,4 @@
-import img1 from "./assests/clg.jpg"
+import img1 from "./assests/clgRed.jpg"
 export const Hero = () => {
   return (
     <div class="relative bg-gradient-to-r from-purple-600 to-blue-600 h-screen text-white overflow-hidden">
