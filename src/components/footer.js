@@ -76,9 +76,9 @@ export const Footer = () => {
 		</div>
 	</div>
 
-	<div className="py-6 text-sm text-center dark:text-gray-600"><pre>   ©2024 GCoE, Amaravti All Rights Reserved.
+	<div className="py-6 text-sm text-center dark:text-gray-600">©2024 GCoE, Amaravti All Rights Reserved.
   <br />
-</pre></div>
+</div>
 
 </footer>
         );

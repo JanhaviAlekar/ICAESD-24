@@ -46,14 +46,14 @@ export const NavBar = () => {
           <div className="text-md font-medium lg:flex-wrap ">
           <Link
               to="/"
+              onClick={() => setIsOpen(!isOpen)}
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200  mr-6 group"
             >
               Home
               <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
             <button
-              id="dropdownDefaultButton"
-              data-dropdown-toggle="dropdown"
+             id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover"
               className=" hover:rounded-lg text-md  text-center inline-flex items-center text-[#33358c]-200 group relative mr-4"
               type="button"
             >
@@ -77,8 +77,8 @@ export const NavBar = () => {
             </button>
 
             <div
-              id="dropdown"
-              class="z-20 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44  "
+              id="dropdownHover"
+              class="z-30 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44  "
             >
               <ul
                 class="py-2 text-sm text-[#33358c] "
@@ -87,6 +87,7 @@ export const NavBar = () => {
                 <li>
                   <Link
                     to="/about"
+                    onClick={() => setIsOpen(!isOpen)}
                     class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
                   >
                     About
@@ -97,6 +98,7 @@ export const NavBar = () => {
                     href="www.google.com"
                     class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                   >
+                    onClick={() => setIsOpen(!isOpen)}
                     CFP
                   </a>
                 </li>
@@ -104,6 +106,7 @@ export const NavBar = () => {
                   <a
                     href="www.google.com"
                     class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
+                    onClick={() => setIsOpen(!isOpen)}
                   >
                     Important Dates
                   </a>
@@ -111,6 +114,7 @@ export const NavBar = () => {
                 <li>
                   <a
                     href="www.google.com"
+                    onClick={() => setIsOpen(!isOpen)}
                     class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
                   >
                     Submission Guidelines
@@ -119,6 +123,7 @@ export const NavBar = () => {
                 <li>
                   <a
                     href="www.google.com"
+                    onClick={() => setIsOpen(!isOpen)}
                     class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200"
                   >
                     Conference Tracks
@@ -128,6 +133,7 @@ export const NavBar = () => {
                   <a
                     href="www.google.com"
                     class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
+                    onClick={() => setIsOpen(!isOpen)}
                   >
                     Publishing and Indexing
                   </a>
@@ -136,6 +142,7 @@ export const NavBar = () => {
                   <a
                     href="www.google.com"
                     class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
+                    onClick={() => setIsOpen(!isOpen)}
                   >
                     Special Session
                   </a>
@@ -144,6 +151,7 @@ export const NavBar = () => {
                   <a
                     href="www.google.com"
                     class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
+                    onClick={() => setIsOpen(!isOpen)}
                   >
                     Important Links
                   </a>
@@ -153,6 +161,7 @@ export const NavBar = () => {
 
             <Link
               to="/author-guide"
+              onClick={() => setIsOpen(!isOpen)}
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-6 group"
             >
               Guideline
@@ -161,6 +170,7 @@ export const NavBar = () => {
 
             <Link
                to="/agenda"
+               onClick={() => setIsOpen(!isOpen)}
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-6 group"
             >
               Agenda
@@ -170,6 +180,7 @@ export const NavBar = () => {
 
             <Link
               to="/committees"
+              onClick={() => setIsOpen(!isOpen)}
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-6 group"
             >
               Committees
@@ -177,6 +188,7 @@ export const NavBar = () => {
             </Link>
             <Link
                to="/contact"
+               onClick={() => setIsOpen(!isOpen)}
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-6 group"
             >
               Contact
@@ -184,6 +196,7 @@ export const NavBar = () => {
             </Link>
             <Link
               to="/register"
+              onClick={() => setIsOpen(!isOpen)}
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-6 group"
             >
               Register
@@ -211,6 +224,7 @@ export const NavBar = () => {
             <Link
               to="/participation-policy"
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200  group"
+              onClick={() => setIsOpen(!isOpen)}
             >
               Participation Policy
               <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>

@@ -13,7 +13,7 @@ const users = [
   {
     name: 'Dr. Jagdish Chand Bansal ',
     img: jg,
-    detail :'Associate Professor at South Asian University, New Delhi (International University) A University Established by SAARC Nations,  Visiting professor at Maths and Computer Science, Liverpool Hope University UK'
+    detail :'Assoc. Prof. at South Asian University, New Delhi.Visiting professor at Maths and Computer Science, Liverpool Hope University UK'
 
   },
   {
