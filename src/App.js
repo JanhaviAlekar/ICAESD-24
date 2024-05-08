@@ -14,7 +14,7 @@ export default function HeroComponent() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Body/>}/>
-        <Route path="/registration" element={<Registration/>}/>
+        <Route path="/register" element={<Registration/>}/>
         <Route path="/committees" element={<Committees/>} />
         <Route path="/author-guide" element={<AuthorGuidelines/>}/>
         <Route path="/contact" element={<DeclareSoon/>}/>

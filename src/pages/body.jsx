@@ -19,7 +19,7 @@ const Body = () => {
       <About />
       <div className="grid grid-cols-1 lg:grid-cols-8 gap-x-0 mx-2 my-10 ">
         <div className="m-2 h-[500px] lg:col-span-3 flex flex-col justify-center items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
-          <div class="text-white mt-8  bg-[#33358c] w-2/3 hover:bg-yellow-300 py-2 text-center rounded-lg text-lg font-semibold transition  hover:text-[#33358c]">
+          <div class="text-white mt-8  bg-[#33358c] w-2/3 py-2 text-center rounded-lg text-lg font-semibold transition  ">
             Important Dates
           </div>
           <Timeline />
@@ -28,7 +28,7 @@ const Body = () => {
           <Guidelines />
         </div>
         <div className="m-2 h-[500px] lg:col-span-2 flex flex-col justify-center items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
-          <div class="text-white mt-3  bg-[#33358c] w-2/3 hover:bg-yellow-300 py-2 text-center rounded-lg text-lg font-semibold transition  hover:text-[#33358c]">
+          <div class="text-white mt-3  bg-[#33358c] w-2/3  py-2 text-center rounded-lg text-lg font-semibold transition  ">
             Announcements
           </div>
           <AutoScrollList />
@@ -39,7 +39,7 @@ const Body = () => {
         <Sponsor users={notableSpeakers} word="Notable speakers" />
         <Sponsor users={organizingC} word="Organizing Committee"/>
       </div>
-      <hr className="my-10 w-[300px] mx-auto h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-300 to-transparent opacity-25 dark:opacity-100" />
+      {/* <hr className="my-10 w-[300px] mx-auto h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-300 to-transparent opacity-25 dark:opacity-100" /> */}
 
       <Venue></Venue>
     </>

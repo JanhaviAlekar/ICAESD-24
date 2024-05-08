@@ -1,6 +1,10 @@
+import RegsiterDetails from "../components/registerDetails";
+
 const  Registration = () => {
     return (<>
-    <p className="tetx-black h-[100vh]">HELLO REGSITER</p>
+    <p className="mt-[90px] mb-20">
+        <RegsiterDetails/>
+    </p>
     </>);
 }
 

@@ -5,24 +5,24 @@ import Metkar from "./Rmetkar.jpeg"
 //notable speakers
 const users = [
   {
-    name: 'Dr. Devendra Deshmukh',
+    name: 'Dr. Ashish Mahalle',
     img: Principal,
-    detail :'Professor, Mechanical Engineering, IIT, Indore'
+    detail :'General chair & Principal, GCOEA'
   },
   {
-    name: 'Dr. Saroj Hiranwal ',
+    name: 'Dr. Rajesh Metkar ',
     img:  Metkar,
-    detail :'Associate Coordinator for BITS and Lecturer-Higher Education in the Faculty of IT at Victorian Institute of Technology, Adelaide Campus, South Australia '
+    detail :'Organizing chair (ICAESD) & Dean(Research & Innovation), GCOEA'
   },
   {
-    name: 'Dr. Maheshkumar Kolekar',
+    name: 'Dr. Shantanu Lohi',
     img: Lohi,
-    detail :`    Associate Professor, Electrical Engineering Department and IIT Patna, Bihar, Patna `
+    detail :`Organizing co-chair (ICAESD) ,GCOEA`
   },
   {
-    name: 'Prof. Dr. Mohan Kolhe',
+    name: 'Dr. Shubhadha Thakare',
     img : Deshmukh,
-    detail : 'Professor, Head of Energy Systems Group, Technical Manager of EU, Science University of NO-4879, Grimstad, Norway'
+    detail : 'Organizing co-chair (ICAESD) ,GCOEA'
   },
  
 ]

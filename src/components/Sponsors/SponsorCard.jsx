@@ -12,10 +12,10 @@ function SponsorCard({ img, name,detail}) {
         />
         <div className="space-y-4 text-center divide-y dark:divide-gray-300">
           <div className="my-2 space-y-1">
-            <h2 className="text-lg font-semibold sm:text-md">{name }</h2>
-            <p className="px-0.5 text-xs sm:text-base dark:text-gray-600">
-              {detail}
-            </p>
+            <h2 className="text-lg font-semibold sm:text-md" >{name }</h2>
+            <i><p className="px-0.5 text-xs sm:text-base dark:text-gray-600 font-[300]">
+             {detail}
+            </p></i>
           </div>
          
         </div>

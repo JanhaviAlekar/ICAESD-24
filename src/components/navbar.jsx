@@ -7,8 +7,8 @@ export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="absolute top-0 left-0 w-full z-50 bg-[#fff] text-[#33358c]  shadow-md ">
-      <div className="flex items-center justify-between lg:justify-between   flex-wrap p-2 pb-0 mx-0 lg:mx-1">
+    <nav className="absolute top-0 left-0 w-full z-50 bg-[#FEFFFE] text-[#000080]  shadow-md ">
+      <div className="flex items-center justify-between lg:justify-between   flex-wrap p-2 pb-0 mx-0 lg:mr-4">
         <Link to="/">
         <div className="flex items-center justify-center flex-shrink-0 mr-2 md:mr-14 ">
           <img src={locofy} className="w-[74px] h-[74px]  mr-4" alt="Logo" />
@@ -44,10 +44,17 @@ export const NavBar = () => {
           }`}
         >
           <div className="text-md font-medium lg:flex-wrap ">
+          <Link
+              to="/"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200  mr-6 group"
+            >
+              Home
+              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+            </Link>
             <button
               id="dropdownDefaultButton"
               data-dropdown-toggle="dropdown"
-              className=" hover:rounded-lg text-md  text-center inline-flex items-center text-[#33358c]-200 group relative"
+              className=" hover:rounded-lg text-md  text-center inline-flex items-center text-[#33358c]-200 group relative mr-4"
               type="button"
             >
               About
@@ -66,7 +73,7 @@ export const NavBar = () => {
                   d="m1 1 4 4 4-4"
                 />
               </svg>
-              <div className="absolute bottom-0 left-0 bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div className="absolute bottom-0 left-0 bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </button>
 
             <div
@@ -76,14 +83,14 @@ export const NavBar = () => {
               <ul
                 class="py-2 text-sm text-[#33358c] "
                 aria-labelledby="dropdownDefaultButton"
-              >
+              > 
                 <li>
-                  <a
-                    href="www.google.com"
+                  <Link
+                    to="/about"
                     class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
                   >
                     About
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a
@@ -146,54 +153,54 @@ export const NavBar = () => {
 
             <Link
               to="/author-guide"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-6 group"
             >
               Guideline
-              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
 
             <Link
                to="/agenda"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-6 group"
             >
               Agenda
-              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
             
 
             <Link
               to="/committees"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-6 group"
             >
               Committees
-              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
             <Link
                to="/contact"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-6 group"
             >
               Contact
-              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
             <Link
-              to="/registration"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
+              to="/register"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-6 group"
             >
               Register
-              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
             {/* {
               isMainPage ? 
               <a
                 href="#venue"
-                className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
               >
                 Venue
               </a>
               :
                 <Link
                 to='/#venue'
-                className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4"
+                className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
               >
                 Venue
               </Link>
@@ -203,10 +210,10 @@ export const NavBar = () => {
 
             <Link
               to="/participation-policy"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mx-4 group"
+              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200  group"
             >
               Participation Policy
-              <div class="bg-[#33358c] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
           </div>
           <div className="flex">

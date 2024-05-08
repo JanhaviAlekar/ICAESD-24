@@ -1,7 +1,9 @@
+import ManuscriptReviewProcess from "../components/manuscript";
+
 export const AuthorGuidelines = () =>{
     return (
-        <div className="h-[100vh]">
-            
+        <div className="mt-[90px] mb-20">
+            <ManuscriptReviewProcess/>
         </div>
     );
 }
