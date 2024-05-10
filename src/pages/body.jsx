@@ -1,7 +1,6 @@
 import { Venue } from "../components/venue";
 import { Guidelines } from "../components/Guidelines";
 import { Hero } from "../components/Hero";
-import AutoScrollList from "../components/list";
 import { About } from "../components/about";
 import { Timeline } from "../components/timeline";
 import Sponsor from "../components/Sponsors/Sponsor";
@@ -27,11 +26,12 @@ const Body = () => {
         <div className="m-4 lg:col-span-3 w-90%  bg-[#33358c] flex justify-center items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
           <Guidelines />
         </div>
-        <div className="m-2 h-[500px] lg:col-span-2 flex flex-col justify-center items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
+        <div className="m-2 h-[500px] lg:col-span-2 flex flex-col mt-8 items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
           <div class="text-white mt-3  bg-[#33358c] w-2/3  py-2 text-center rounded-lg text-lg font-semibold transition  ">
             Announcements
           </div>
-          <AutoScrollList />
+          <p className="mt-8 text-gray-600 font-[300]">Will update soon</p>
+          {/* <AutoScrollList /> */}
         </div>
       </div>
       <div className="mx-auto">

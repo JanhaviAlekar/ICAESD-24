@@ -21,9 +21,10 @@ export const Venue = () => {
               Government College of Engineering{" "}
             </p>
             <p className="text-md text-center px-4">
-              Do in occaecat officia incididunt est est proident. Culpa cillum
-              id dolore non do anim eiusmod cupidatat incididunt ex minim duis.
-              Nostrud aute irure ea et duis aliqua pariatur incididunt sit.
+            
+
+
+VMV Road, Kathora Naka, Amravati, Maharashtra - 444604
             </p>
           </div>
           <div>
