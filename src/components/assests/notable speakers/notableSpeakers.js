@@ -3,8 +3,14 @@ import  jg from "./jagdishChand.png"
 import sh from "./sarojh.png"
 import mk from "./maheshKholekr.png"
 import mohankolhe from "./mohanKolhe1.png"
+import nistane from "./nistane.jpeg"
 //notable speakers
 const users = [
+  {  
+    name: 'Dr. Viraj Nistane (Postdoctoral researcher)',
+    img: nistane,
+    detail :'Faculty of Science, University of Geneva, Switzerland'
+  },
   {
     name: 'Dr. Devendra Deshmukh',
     img: dd,
