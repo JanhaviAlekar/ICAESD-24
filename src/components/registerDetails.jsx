@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import newImg from "./assests/QR.jpeg"
 
 const RegsiterDetails = () => {
     return (
@@ -31,7 +32,9 @@ const RegsiterDetails = () => {
                         <strong>Step 2 (Fill Registration Form):</strong><br />
                         After making payment, authors are required to fill the Conference/Attendee Registration Form.<br />
 
-                    </p>  <Link to="https://easychair.org/conferences/?conf=icaesd2024" class="text-white bg-[#E30022]  transition-transform transform-gpu hover:-translate-y-2 hover:shadow-lg py-2 my-4 px-4 rounded-full text-lg font-semibold ">Submit your Paper</Link>
+                    </p>
+                    <Link to="https://easychair.org/conferences/?conf=icaesd2024" class="text-white bg-[#E30022]  transition-transform transform-gpu hover:-translate-y-2 hover:shadow-lg py-2 my-4 px-4 rounded-full text-lg font-semibold ">Submit your Paper</Link>
+                    <img src={newImg} alt="qr" className='mt-6 h-[300px]'></img>
                     <p className="mb-4 text-red-500 mt-4">
                         <b> Registration fees once paid will not be refunded under any circumstances.</b>
                     </p>
