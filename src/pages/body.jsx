@@ -7,6 +7,7 @@ import Sponsor from "../components/Sponsors/Sponsor";
 import patrons from "../components/assests/patrons/patrons"
 import notableSpeakers from "../components/assests/notable speakers/notableSpeakers"
 import organizingC from "../components/assests/organizing/organizing"
+import newImg from '../components/new.gif'
 
 const Body = () => {
   return (
@@ -15,6 +16,62 @@ const Body = () => {
         {/* <img src={diamond} className="w-[64px] h-[64px] mr-4" alt="Logo" /> */}
       </div>
       <Hero />
+      <div className="flex justify-center items-center lg:mx-24 mx-6 mt-2">
+        <div class="relative flex overflow-x-hidden">
+          <div class="flex py-4 animate-marquee whitespace-nowrap">
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                ICAESD 2024 Paper Template Download from here
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                ICAESD 2024 Paper Template Download from here
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                ICAESD 2024 Paper Template Download from here
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                ICAESD 2024 Paper Template Download from here
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+          </div>
+          <div class="flex py-4 animate-marquee whitespace-nowrap">
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                ICAESD 2024 Paper Template Download from here
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                ICAESD 2024 Paper Template Download from here
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                ICAESD 2024 Paper Template Download from here
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                ICAESD 2024 Paper Template Download from here
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+          </div>
+        </div>
+      </div>
       <About />
       <div className="grid grid-cols-1 lg:grid-cols-8 gap-x-0 mx-2 my-10 ">
         <div className="m-2 h-[500px] lg:col-span-3 flex flex-col justify-center items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
