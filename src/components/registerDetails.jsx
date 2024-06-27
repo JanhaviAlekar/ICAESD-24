@@ -46,7 +46,7 @@ const RegsiterDetails = () => {
                             <tbody>
                                 <tr class="odd:bg-white  even:bg-gray-50 even:dark:bg-gray-800 border-b border-gray-700">
                                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">UG/PG/Ph.D. Students</th>
-                                    <td class="px-6 py-4">Rs 4000.00</td>
+                                    <td class="px-6 py-4">Rs 3000.00</td>
                                 </tr>
                                 <tr class="odd:bg-white  even:bg-gray-50  border-b border-gray-700">
                                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">Academician/ Faculty</th>
@@ -54,7 +54,7 @@ const RegsiterDetails = () => {
                                 </tr>
                                 <tr class="odd:bg-white  even:bg-gray-50  border-b border-gray-700">
                                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">Industry Person</th>
-                                    <td class="px-6 py-4">Rs 5000.00</td>
+                                    <td class="px-6 py-4">Rs 6000.00</td>
                                 </tr>
                                 <tr class="odd:bg-white  even:bg-gray-50  border-b border-gray-700">
                                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">Delegate from Abroad</th>
@@ -62,7 +62,7 @@ const RegsiterDetails = () => {
                                 </tr>
                                 <tr class="odd:bg-white  even:bg-gray-50  border-b border-gray-700">
                                     <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap ">Attendee</th>
-                                    <td class="px-6 py-4">Rs 1000.00</td>
+                                    <td class="px-6 py-4">Rs 1500.00</td>
                                 </tr>
                             </tbody>
                         </table>
