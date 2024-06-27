@@ -8,6 +8,7 @@ import patrons from "../components/assests/patrons/patrons"
 import notableSpeakers from "../components/assests/notable speakers/notableSpeakers"
 import organizingC from "../components/assests/organizing/organizing"
 import newImg from '../components/new.gif'
+import { Link } from "react-router-dom";
 
 const Body = () => {
   return (
@@ -27,7 +28,7 @@ const Body = () => {
             </span>
             <span class="text-sm mx-4 flex items-center">
               <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
-                ICAESD 2024 Paper Template Download from here
+                Full submission paper process started
                 <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
               </a>
             </span>
@@ -39,7 +40,7 @@ const Body = () => {
             </span>
             <span class="text-sm mx-4 flex items-center">
               <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
-                ICAESD 2024 Paper Template Download from here
+                Full submission paper process started
                 <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
               </a>
             </span>
@@ -53,7 +54,7 @@ const Body = () => {
             </span>
             <span class="text-sm mx-4 flex items-center">
               <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
-                ICAESD 2024 Paper Template Download from here
+                Full submission paper process started
                 <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
               </a>
             </span>
@@ -65,8 +66,8 @@ const Body = () => {
             </span>
             <span class="text-sm mx-4 flex items-center">
               <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
-                ICAESD 2024 Paper Template Download from here
-                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+                Full submission paper process started
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" /> "     "
               </a>
             </span>
           </div>
@@ -87,11 +88,19 @@ const Body = () => {
           <div class="text-white mt-3  bg-[#33358c] w-2/3  py-2 text-center rounded-lg text-lg font-semibold transition  ">
             Announcements
           </div>
-          <p className="mt-8 text-gray-600 font-[300]">Will update soon</p>
-          {/* <AutoScrollList /> */}
+          <ul class=" ml-6 mt-4 leading-relaxed">
+            <li class='py-2 font-semibold flex items-center'>Full submission paper process started <img class="h-4 ml-2" src={newImg} alt="Submit Icon" /></li>
+            <li class='py-2 font-[400]'>
+              <a class=" font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                ICAESD 2024 Paper Template Download from here
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </li>
+            <li class='py-2 font-semibold flex items-center'><Link to="./author-guide">Check Out the guidelines</Link></li>
+          </ul>
         </div>
       </div>
-      <div className="mx-auto">
+      <div className="mx-auto" id="imp">
         <Sponsor users={patrons} word="Patrons" />
         <Sponsor users={notableSpeakers} word="International Advisory Board" />
         <Sponsor users={organizingC} word="Organizing Committee" />

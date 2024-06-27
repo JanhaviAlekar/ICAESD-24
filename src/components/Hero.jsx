@@ -10,7 +10,7 @@ export const Hero = () => {
       </div>
 
       <div class="relative z-10 flex flex-col justify-center items-center h-full text-center m-2 lg:m-0">
-        <h1 class="lg:text-6xl text-3xl font-semibold tracking-wide lg:font-[800] leading-tight mb-4">Government College of Engineering</h1>
+        <h1 class="lg:text-5xl text-3xl font-semibold tracking-wide lg:font-[800] leading-tight mb-4">Government College of Engineering, Amravati</h1>
         <h5 className="lg:text-3xl my-2 font-semibold text-xl">Present's</h5>
         <h3 className="lg:text-6xl text-3xl font-bold lg:font-extrabold tracking-wide ">ICAESD 2024</h3>
         <p class="text-xl font-semibold text-gray-300 mt-3">Government College of Engineering, Amravati</p>

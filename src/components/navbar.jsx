@@ -110,16 +110,16 @@ export const NavBar = () => {
                     </Link>
                   </li>
                   <li>
-                    <a
-                      href="www.google.com"
+                    <Link
+                      to="/cfp"
                       class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                     >
                       CFP
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a
-                      href="www.google.com"
+                      href="/"
                       class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                     >
                       Important Dates
@@ -127,7 +127,7 @@ export const NavBar = () => {
                   </li>
                   <li>
                     <a
-                      href="www.google.com"
+                      href="/"
                       class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
                     >
                       Submission Guidelines
@@ -135,7 +135,7 @@ export const NavBar = () => {
                   </li>
                   <li>
                     <a
-                      href="www.google.com"
+                      href="/"
                       class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200"
                     >
                       Conference Tracks
@@ -143,7 +143,7 @@ export const NavBar = () => {
                   </li>
                   <li>
                     <a
-                      href="www.google.com"
+                      href="/"
                       class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                     >
                       Publishing and Indexing
@@ -151,7 +151,7 @@ export const NavBar = () => {
                   </li>
                   <li>
                     <a
-                      href="www.google.com"
+                      href="/"
                       class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
                     >
                       Special Session
@@ -159,7 +159,7 @@ export const NavBar = () => {
                   </li>
                   <li>
                     <a
-                      href="www.google.com"
+                      href="/"
                       class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                     >
                       Important Links
@@ -186,16 +186,16 @@ export const NavBar = () => {
                   </Link>
                 </li>
                 <li>
-                  <a
-                    href="www.google.com"
+                  <Link
+                    to="/cfp"
                     class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                   >
                     CFP
-                  </a>
+                  </Link>
                 </li>
                 <li>
                   <a
-                    href="www.google.com"
+                    href="/"
                     class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                   >
                     Important Dates
@@ -203,7 +203,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    href="www.google.com"
+                    href="/"
                     class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
                   >
                     Submission Guidelines
@@ -211,7 +211,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    href="www.google.com"
+                    href="/"
                     class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200"
                   >
                     Conference Tracks
@@ -219,7 +219,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    href="www.google.com"
+                    href="/"
                     class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                   >
                     Publishing and Indexing
@@ -227,7 +227,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    href="www.google.com"
+                    href="/"
                     class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
                   >
                     Special Session
@@ -235,7 +235,7 @@ export const NavBar = () => {
                 </li>
                 <li>
                   <a
-                    href="www.google.com"
+                    href="/"
                     class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
                   >
                     Important Links
