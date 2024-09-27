@@ -1,0 +1,53 @@
+{
+    "faculty": [
+      {
+        "sr_no": 1,
+        "name_of_faculty": "Dr. A.M. Mahalle",
+        "designation": "Head",
+        "department": "Civil Engineering"
+      },
+      {
+        "sr_no": 2,
+        "name_of_faculty": "Dr. R.S. Dalu",
+        "designation": "Head",
+        "department": "Mechanical Engineering"
+      },
+      {
+        "sr_no": 3,
+        "name_of_faculty": "Dr. V.M. Jape",
+        "designation": "Head",
+        "department": "Electrical Engineering"
+      },
+      {
+        "sr_no": 4,
+        "name_of_faculty": "Dr. P.R. Deshmukh",
+        "designation": "Head",
+        "department": "Electronics & Telecommunication Engineering"
+      },
+      {
+        "sr_no": 5,
+        "name_of_faculty": "Dr. G.G. Bhutada",
+        "designation": "Head",
+        "department": "Instrumentation Engineering"
+      },
+      {
+        "sr_no": 6,
+        "name_of_faculty": "Prof. A.V. Deorankar",
+        "designation": "Head",
+        "department": "Computer Science Engineering"
+      },
+      {
+        "sr_no": 7,
+        "name_of_faculty": "Prof. A.W. Bhade",
+        "designation": "Head",
+        "department": "Information Technology"
+      },
+      {
+        "sr_no": 8,
+        "name_of_faculty": "Dr. D.A. Zatale",
+        "designation": "Head",
+        "department": "First Year"
+      }
+    ]
+  }
+  

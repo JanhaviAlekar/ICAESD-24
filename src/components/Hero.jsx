@@ -15,6 +15,7 @@ export const Hero = () => {
         <h3 className="lg:text-6xl text-3xl font-bold lg:font-extrabold tracking-wide ">ICAESD 2024</h3>
         <p class="text-xl font-semibold text-gray-300 mt-3">Government College of Engineering, Amravati</p>
         <p class="text-xl font-semibold text-gray-300  mb-6">Date:&nbsp;&nbsp;20 & 21 December,&nbsp;&nbsp;2024</p>
+        <p class="text-xl font-semibold text-gray-300  mb-6">Paper submission deadline:  15 Sept 2024</p>
         <Link to="/register" class="text-white bg-[#000080] transition-transform transform-gpu hover:-translate-y-2 hover:shadow-lg py-2 px-4 rounded-full text-lg font-semibold inline-flex items-center">
           <img className="h-4 mr-2" src={newImg} alt="Submit Icon"></img>
           <span>Submit your Paper</span>
