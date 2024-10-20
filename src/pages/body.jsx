@@ -40,8 +40,20 @@ const Body = () => {
               </a>
             </span>
             <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1-qmewNLL77cZXswhenHLs_lb5GnZXjVbxIZzzlMkAsc/edit?usp=sharing">
+                Check out the Copyright Form
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+            <span class="text-sm mx-4 flex items-center">
               <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
                 Full submission paper process started
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1-qmewNLL77cZXswhenHLs_lb5GnZXjVbxIZzzlMkAsc/edit?usp=sharing">
+                Check out the Copyright Form
                 <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
               </a>
             </span>
@@ -94,6 +106,12 @@ const Body = () => {
             <li class='py-2 font-[400]'>
               <a class=" font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
                 ICAESD 2024 Paper Template Download from here
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </li>
+            <li class='py-2 font-[400]'>
+              <a class=" font-semibold flex items-center" href="https://docs.google.com/document/d/1-qmewNLL77cZXswhenHLs_lb5GnZXjVbxIZzzlMkAsc/edit?usp=sharing">
+                Copyright Form
                 <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
               </a>
             </li>
