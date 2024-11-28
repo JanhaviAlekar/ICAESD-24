@@ -10,6 +10,7 @@ import organizingC from "../components/assests/organizing/organizing"
 import newImg from '../components/new.gif'
 import { Link } from "react-router-dom";
 import tcs from "../components/tcs.jpeg"
+import { NewAbout } from "../components/newAbout";
 
 const Body = () => {
   return (
@@ -21,6 +22,24 @@ const Body = () => {
       <div className="flex justify-center items-center lg:mx-24 mx-6 mt-2">
         <div class="relative flex overflow-x-hidden">
           <div class="flex py-4 animate-marquee whitespace-nowrap">
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                Conference Registration is Closed for Accepted Paper
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                Conference Registration is Closed for Accepted Paper
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
+            <span class="text-sm mx-4 flex items-center">
+              <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                Conference Registration is Closed for Accepted Paper
+                <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+              </a>
+            </span>
             <span class="text-sm mx-4 flex items-center">
               <a class="text-[#000080] font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
                 ICAESD 2024 Paper Template Download from here
@@ -86,6 +105,7 @@ const Body = () => {
           </div>
         </div>
       </div>
+      <NewAbout />
       <About />
       <div className="grid grid-cols-1 lg:grid-cols-8 gap-x-0 mx-2 my-10 ">
         <div className="m-2 h-[500px] lg:col-span-3 flex flex-col justify-center items-center shadow-[rgba(7,_65,_210,_0.1)_0px_9px_30px]">
@@ -102,6 +122,10 @@ const Body = () => {
             Announcements
           </div>
           <ul class=" ml-6 mt-4 leading-relaxed">
+            <li class='py-2 font-bold'>
+              Conference Registration is Closed for Accepted Paper
+              <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
+            </li>
             <li class='py-2 font-semibold flex items-center'>Full submission paper process started <img class="h-4 ml-2" src={newImg} alt="Submit Icon" /></li>
             <li class='py-2 font-[400]'>
               <a class=" font-semibold flex items-center" href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
