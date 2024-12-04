@@ -17,6 +17,16 @@ export const NewAbout = () => {
                         </Link>
 
                     </p>
+                    <p className=" text-md lg:text-lg font-[400] lg:mx-10 sm:mx-2">
+                        Presentation Schedule- Theme Wise- ICAESD 2024  <Link
+                            to="/presentationSchedule"
+                            class="px-4 py-2 font-bold text-[#33358c] hover:text-[#33358c] hover:bg-gray-200"
+                        >
+                            Check here
+                        </Link>
+                        <a class="px-4 py-2 font-bold text-[#33358c]" href="https://drive.google.com/file/d/1Ws-6bbqTCuZjjeaRiJtYbSy_YhUj9e60/view" >or Download</a>
+
+                    </p>
                 </span>
             </div>
         </>

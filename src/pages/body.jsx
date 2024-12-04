@@ -132,6 +132,15 @@ const Body = () => {
 
             </li>
             <li class='py-2 font-bold'>
+              Presentation Schedule- Theme Wise- ICAESD 2024  <Link
+                to="/presentationSchedule"
+                class="px-4 py-2 font-bold text-[#33358c] hover:text-[#33358c] hover:bg-gray-200"
+              >
+                Check here
+              </Link>
+              <a class="px-4 py-2 font-bold text-[#33358c]" href="https://drive.google.com/file/d/1Ws-6bbqTCuZjjeaRiJtYbSy_YhUj9e60/view" >or Download</a>
+            </li>
+            <li class='py-2 font-bold'>
               Conference Registration is Closed for Accepted Paper
               <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
             </li>

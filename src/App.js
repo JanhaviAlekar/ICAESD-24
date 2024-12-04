@@ -10,6 +10,7 @@ import DeclareSoon from "./pages/declareSoon";
 import Contact from "./pages/contact";
 import Cfp from "./pages/cfp";
 import PresentationGuide from "./pages/presentationGuide";
+import PresentationSchedule from "./pages/presentationSchedule";
 
 export default function HeroComponent() {
   return (
@@ -21,6 +22,7 @@ export default function HeroComponent() {
         <Route path="/committees" element={<Committees/>} />
         <Route path="/cfp" element={<Cfp/>} />
         <Route path="/presentation-guide" element={<PresentationGuide/>} />
+        <Route path="/presentationSchedule" element={<PresentationSchedule/>} />
         <Route path="/author-guide" element={<AuthorGuidelines/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/agenda" element ={<DeclareSoon/>} />
