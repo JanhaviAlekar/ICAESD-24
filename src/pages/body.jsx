@@ -123,6 +123,15 @@ const Body = () => {
           </div>
           <ul class=" ml-6 mt-4 leading-relaxed">
             <li class='py-2 font-bold'>
+              Presentation Guidelines for Presenting Authors  <Link
+                to="/presentation-guide"
+                class="px-4 py-2 font-bold text-[#33358c] hover:text-[#33358c] hover:bg-gray-200"
+              >
+                Check here
+              </Link>
+
+            </li>
+            <li class='py-2 font-bold'>
               Conference Registration is Closed for Accepted Paper
               <img class="h-4 ml-2" src={newImg} alt="Submit Icon" />
             </li>

@@ -9,6 +9,7 @@ import { AuthorGuidelines } from "./pages/author-guide";
 import DeclareSoon from "./pages/declareSoon";
 import Contact from "./pages/contact";
 import Cfp from "./pages/cfp";
+import PresentationGuide from "./pages/presentationGuide";
 
 export default function HeroComponent() {
   return (
@@ -19,6 +20,7 @@ export default function HeroComponent() {
         <Route path="/register" element={<Registration/>}/>
         <Route path="/committees" element={<Committees/>} />
         <Route path="/cfp" element={<Cfp/>} />
+        <Route path="/presentation-guide" element={<PresentationGuide/>} />
         <Route path="/author-guide" element={<AuthorGuidelines/>}/>
         <Route path="/contact" element={<Contact/>}/>
         <Route path="/agenda" element ={<DeclareSoon/>} />

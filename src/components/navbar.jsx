@@ -194,6 +194,14 @@ export const NavBar = () => {
                   </Link>
                 </li>
                 <li>
+                  <Link
+                    to="/presentation-guide"
+                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
+                  >
+                    Presentation Guidelines
+                  </Link>
+                </li>
+                <li>
                   <a
                     href="/"
                     class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
