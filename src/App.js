@@ -6,6 +6,7 @@ import { NavBar } from "./components/navbar";
 import { Footer } from "./components/footer";
 import Committees from "./pages/committee";
 import { AuthorGuidelines } from "./pages/author-guide";
+import { Accommodation } from "./pages/accommodation";
 import DeclareSoon from "./pages/declareSoon";
 import Contact from "./pages/contact";
 import Cfp from "./pages/cfp";
@@ -25,7 +26,7 @@ export default function HeroComponent() {
         <Route path="/presentationSchedule" element={<PresentationSchedule/>} />
         <Route path="/author-guide" element={<AuthorGuidelines/>}/>
         <Route path="/contact" element={<Contact/>}/>
-        <Route path="/agenda" element ={<DeclareSoon/>} />
+        <Route path="/accommodation" element ={<Accommodation/>} />
         <Route path="/participation-policy" element ={<DeclareSoon/>} />
       </Routes>
       <Footer/>

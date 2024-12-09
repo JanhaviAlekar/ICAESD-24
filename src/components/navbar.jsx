@@ -261,10 +261,10 @@ export const NavBar = () => {
             </Link>
 
             <Link
-              to="/agenda"
+              to="/accommodation"
               className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
             >
-              Agenda
+              Accommodation
               <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
             </Link>
 
