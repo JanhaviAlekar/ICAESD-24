@@ -24,7 +24,7 @@ export const NewAbout = () => {
                         >
                             Check here
                         </Link>
-                        <a class="px-4 py-2 font-bold text-[#33358c]" href="https://drive.google.com/file/d/1Ws-6bbqTCuZjjeaRiJtYbSy_YhUj9e60/view" >or Download</a>
+                        <a class="px-4 py-2 font-bold text-[#33358c]" href="https://drive.google.com/file/d/1ESHCWAUpxM5OTU6JrfXTrHFjQ0Em6-Hw/view?usp=sharing" >or Download</a>
 
                     </p>
                 </span>
