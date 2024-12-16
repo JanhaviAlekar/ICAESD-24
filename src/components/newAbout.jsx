@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import newImg from "../components/new.gif"
 export const NewAbout = () => {
     return (
         <>
@@ -17,16 +18,23 @@ export const NewAbout = () => {
                         </Link>
 
                     </p>
-                    <p className=" text-md lg:text-lg font-[400] lg:mx-10 sm:mx-2">
-                        Presentation Schedule- Theme Wise- ICAESD 2024  <Link
+                    <p className="text-md lg:text-lg font-[400] lg:mx-10 sm:mx-2 flex items-center">
+                        Presentation Schedule- Theme Wise- ICAESD 2024
+                        <Link
                             to="/presentationSchedule"
-                            class="px-4 py-2 font-bold text-[#33358c] hover:text-[#33358c] hover:bg-gray-200"
+                            className="px-4 py-2 font-bold text-[#33358c] hover:text-[#33358c] hover:bg-gray-200"
                         >
                             Check here
                         </Link>
-                        <a class="px-4 py-2 font-bold text-[#33358c]" href="https://drive.google.com/file/d/1ESHCWAUpxM5OTU6JrfXTrHFjQ0Em6-Hw/view?usp=sharing" >or Download</a>
-
+                        <a
+                            className="px-4 py-2 font-bold text-[#33358c]"
+                            href="https://drive.google.com/file/d/1-Ii8qkYQf6FPOhkQkKPClK0QMywIFfzb/view?usp=sharing"
+                        >
+                            or Download
+                        </a>
+                        <img className="h-4 ml-2 inline" src={newImg} alt="Submit Icon" />
                     </p>
+
                 </span>
             </div>
         </>

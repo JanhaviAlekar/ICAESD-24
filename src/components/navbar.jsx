@@ -32,7 +32,7 @@ export const NavBar = () => {
     <nav className="absolute top-0 left-0 w-full z-50 bg-[#FEFFFE] text-[#000080]  shadow-md ">
       <div className="flex items-center justify-between lg:justify-between   flex-wrap p-2 pb-0 mx-0 lg:mr-4">
         <Link to="/">
-          <div className="flex items-center justify-center flex-shrink-0 mr-2 md:mr-14 ">
+          <div className="flex items-center justify-center flex-shrink-0 mr-4 md:mr-14 ">
             <img src={locofy} className="w-[74px] h-[74px]  mr-4" alt="Logo" />
             <p className=" font-bold text-xl lg:text-3xl tracking-wide">
               ICAESD'24
@@ -74,7 +74,7 @@ export const NavBar = () => {
             </Link>
             <button
               id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover"
-              className=" hover:rounded-lg text-md  text-center inline-flex items-center text-[#33358c]-200 group relative mr-2"
+              className=" hover:rounded-lg text-md  text-center inline-flex items-center text-[#33358c]-200 group relative mr-4"
               type="button"
             >
               About
@@ -136,7 +136,7 @@ export const NavBar = () => {
                   <li>
                     <a
                       href="/"
-                      class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200"
+                      class="block px-2 py-2hover:text-[#33358c] hover:bg-gray-200"
                     >
                       Conference Tracks
                     </a>
@@ -309,17 +309,11 @@ export const NavBar = () => {
 
             } */}
 
-            <Link
-              to="/participation-policy"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200  group"
-            >
-              Participation Policy
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link>
+
 
           </div>
           <div className="flex">
-            <img src={mahalogo} className="w-[64px] h-[64px] mr-4" alt="Logo" />
+            <img src={mahalogo} className="w-[64px] h-[64px] " alt="Logo" />
           </div>
         </div>
       </div>
