@@ -19,7 +19,7 @@ export const NewAbout = () => {
 
                     </p>
                     <p className="text-md lg:text-lg font-[400] lg:mx-10 sm:mx-2 flex items-center">
-                        Presentation Schedule- Theme Wise- ICAESD 2024
+                        Presentation Schedule- Theme Wise- ICAIISD 2025
                         <Link
                             to="/presentationSchedule"
                             className="px-4 py-2 font-bold text-[#33358c] hover:text-[#33358c] hover:bg-gray-200"

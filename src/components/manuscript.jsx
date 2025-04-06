@@ -5,19 +5,19 @@ const ManuscriptReviewProcess = () => {
         <>
             <div className="flex justify-center">
                 <div className="max-w-6xl p-6">
-                    <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">ICA</span>ESD 2024 Paper Template</p>
+                    <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">ICA</span>IISD 2025 Paper Template</p>
                     <ul className="list-disc  ml-6 mb-6 lg:mb-8 leading-relaxed">
                         <li className='py-2'>
                             <a className='text-[#000080] cursor-pointer font-semibold flex items-center' href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
-                                ICAESD 2024 Paper Template Download from here
+                                ICAIISD 2025 Paper Template Download from here
                                 <img className="h-4 ml-2" src={newImg} alt="Submit Icon" />
                             </a>
                         </li>
                     </ul>
                     <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Sub</span>mission of Paper</p>
                     <ul className="list-disc  ml-6 leading-relaxed ">
-                        <li className='py-2 font-[400]'>The conference welcomes paper submission from researchers, practitioners, academicians and students through Easy Chair conference management system - <br /><span className='text-[#000080] cursor-pointer font-semibold'>   (https://easychair.org/conferences/?conf=icaesd2024). </span>  </li>
-                        <li className='py-2 font-[400]'>All the accepted and presented papers will be published in UGC CARE JOURNAL (Indian Journal of Technical Education) subject to quality and policy check by the publisher. All rights for presentation & publication of paper are reserved by ICAESD 2024 and its decision regarding papers will be final</li>
+                        <li className='py-2 font-[400]'>The conference welcomes paper submission from researchers, practitioners, academicians and students through Easy Chair conference management system - <br /><span className='text-[#000080] cursor-pointer font-semibold'>   (https://easychair.org/conferences/?conf=ICAIISD2025). </span>  </li>
+                        <li className='py-2 font-[400]'>All the accepted and presented papers will be published in UGC CARE JOURNAL (Indian Journal of Technical Education) subject to quality and policy check by the publisher. All rights for presentation & publication of paper are reserved by ICAIISD 2025 and its decision regarding papers will be final</li>
                     </ul>
                 </div>
             </div>
@@ -35,7 +35,7 @@ const ManuscriptReviewProcess = () => {
                         <li class='py-2 font-[400]'>The paper must be submitted in PDF format only for the review process. Camera Ready Copy will have to be submitted in both Word and PDF formats.</li>
                         <li class='py-2 font-[400]'>Before submitting the manuscript, please ensure that the language used (English) is clear, concise, coherent, and grammatically correct.</li>
                         <li class='py-2 font-[400]'>Upload the full paper only through the Conference submission Platform: EasyChair<br />
-                            <span class='text-[#000080] cursor-pointer font-semibold'><a href="https://easychair.org/conferences/?conf=icaesd2024" >(https://easychair.org/conferences/?conf=icaesd2024)</a></span>
+                            <span class='text-[#000080] cursor-pointer font-semibold'><a href="https://easychair.org/conferences/?conf=ICAIISD2025" >(https://easychair.org/conferences/?conf=ICAIISD2025)</a></span>
                         </li>
                     </ul>
                 </div>

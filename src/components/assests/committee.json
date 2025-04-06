@@ -2,133 +2,28 @@
     "committee_members": [
       {
         "Sr.No.": 1,
-        "Responsibility": "General Chair",
-        "Name_of_Faculty": "Dr. A.M. Mahalle (Principal"
+        "Responsibility": "Conference Chair",
+        "Name_of_Faculty": "Dr. A.M. Mahalle (Principal)"
       },
       {
         "Sr.No.": 2,
-        "Responsibility": "Organizing Chair",
-        "Name_of_Faculty": "Dr. R.M. Metkar"
+        "Responsibility": "General Chair",
+        "Name_of_Faculty": "Dr. R.M. Metkar (Dean R&I)"
       },
       {
         "Sr.No.": 3,
-        "Responsibility": "Organizing Co-Chair",
-        "Name_of_Faculty": "Dr. S.A. Lohi"
+        "Responsibility": "Organizing Chair & Convener",
+        "Name_of_Faculty": "Prof. A.W. Bhade"
       },
       {
         "Sr.No.": 4,
-        "Responsibility": "Organizing Co-Chair",
-        "Name_of_Faculty": "Dr. S.S. Thakare"
+        "Responsibility": "Organizing Chair & Convener",
+        "Name_of_Faculty": "Dr. S.A. Lohi"
       },
       {
         "Sr.No.": 5,
-        "Responsibility": "Program Chair",
-        "Name_of_Faculty": "Dr. P.R. Deshmukh"
-      },
-      {
-        "Sr.No.": 6,
-        "Responsibility": "Publicity Chair",
-        "Name_of_Faculty": "Prof. P.S. Lande"
-      },
-      {
-        "Sr.No.": 7,
-        "Responsibility": "Publication Chair",
-        "Name_of_Faculty": "Dr. S.K. Hirde"
-      },
-      {
-        "Sr.No.": 8,
-        "Responsibility": "Review of Paper and Plagiarism Check",
-        "Name_of_Faculty": "Prof. U.V. Dongare"
-      },
-      {
-        "Sr.No.": 9,
-        "Responsibility": "Registration Chair",
-        "Name_of_Faculty": "Dr. M.V. Jape"
-      },
-      {
-        "Sr.No.": 10,
-        "Responsibility": "Finance Chair",
-        "Name_of_Faculty": "Dr. V.N. Ghate"
-      },
-      {
-        "Sr.No.": 11,
-        "Responsibility": "Technical Committee Chair",
-        "Name_of_Faculty": "Prof. U.M. Thorkar"
-      },
-      {
-        "Sr.No.": 12,
-        "Responsibility": "Logistic Support Chair",
-        "Name_of_Faculty": "Prof. P.L. Paikrao"
-      },
-      {
-        "Sr.No.": 13,
-        "Responsibility": "Website Chair",
-        "Name_of_Faculty": "Prof. P.P. Shelke"
-      },
-      {
-        "Sr.No.": 14,
-        "Responsibility": "Keynote Address/Special Sessions",
-        "Name_of_Faculty": "Dr. R.R. Chaudhari"
-      },
-      {
-        "Sr.No.": 15,
-        "Responsibility": "Industry Collaborations and Sponsorship",
-        "Name_of_Faculty": "Prof. M.M. Deshmukh"
-      },
-      {
-        "Sr.No.": 16,
-        "Responsibility": "Alumni Collaborations and Sponsorship",
-        "Name_of_Faculty": "Prof. N.S. Pathak"
-      },
-      {
-        "Sr.No.": 17,
-        "Responsibility": "Professional Society Collaborations",
-        "Name_of_Faculty": "Dr. D.V. Rojatkar"
-      },
-      {
-        "Sr.No.": 18,
-        "Responsibility": "Accommodation Incharge",
-        "Name_of_Faculty": "Prof. B.V. Wakode"
-      },
-      {
-        "Sr.No.": 19,
-        "Responsibility": "Cultural Program Incharge",
-        "Name_of_Faculty": "Prof. A.M. Mokadam"
-      },
-      {
-        "Sr.No.": 20,
-        "Responsibility": "Food/Catering",
-        "Name_of_Faculty": "Dr. K.P. Wagh"
-      },
-      {
-        "Sr.No.": 21,
-        "Responsibility": "Electrical Supply and Support",
-        "Name_of_Faculty": "Dr. V.M. Jape"
-      },
-      {
-        "Sr.No.": 22,
-        "Responsibility": "Printing Chair",
-        "Name_of_Faculty": "Prof. M.T. Shete"
-      },
-      {
-        "Sr.No.": 23,
-        "Responsibility": "Stage Management and Decoration",
-        "Name_of_Faculty": "Prof. R.S. Mohod"
-      },
-      {
-        "Sr.No.": 24,
-        "Responsibility": "Inaugural/Valedictory Functions",
-        "Name_of_Faculty": "Prof. R.R. Harne"
-      },
-      {
-        "Sr.No.": 25,
-        "Responsibility": "Photography and Video Shooting",
-        "Name_of_Faculty": "Prof. A.M. Shah"
-      },
-      {
-        "Sr.No.": 27,
-        "Responsibility": "Template for the Conference papers",
-        "Name_of_Faculty": "Dr. G.A. Dhomane"
+        "Responsibility": "Organizing Chair & Co-Convener",
+        "Name_of_Faculty": "Prof. R.V. Mante"
       }
     ]
   }

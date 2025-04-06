@@ -12,17 +12,17 @@ const users = [
   {
     name: 'Dr. Rajesh Metkar ',
     img:  Metkar,
-    detail :'Organizing chair (ICAESD) & Dean(Research & Innovation), GCOEA'
+    detail :'Organizing chair (ICAIISD) & Dean(Research & Innovation), GCOEA'
   },
   {
     name: 'Dr. Shantanu Lohi',
     img: Lohi,
-    detail :`Organizing co-chair (ICAESD) ,GCOEA`
+    detail :`Organizing co-chair (ICAIISD) ,GCOEA`
   },
   {
     name: 'Dr. Shubhadha Thakare',
     img : Deshmukh,
-    detail : 'Organizing co-chair (ICAESD) ,GCOEA'
+    detail : 'Organizing co-chair (ICAIISD) ,GCOEA'
   },
  
 ]
