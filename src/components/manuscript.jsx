@@ -16,8 +16,8 @@ const ManuscriptReviewProcess = () => {
                     </ul>
                     <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Sub</span>mission of Paper</p>
                     <ul className="list-disc  ml-6 leading-relaxed ">
-                        <li className='py-2 font-[400]'>The conference welcomes paper submission from researchers, practitioners, academicians and students through Easy Chair conference management system - <br /><span className='text-[#000080] cursor-pointer font-semibold'>   (https://easychair.org/conferences/?conf=ICAIISD2025). </span>  </li>
-                        <li className='py-2 font-[400]'>All the accepted and presented papers will be published in UGC CARE JOURNAL (Indian Journal of Technical Education) subject to quality and policy check by the publisher. All rights for presentation & publication of paper are reserved by ICAIISD 2025 and its decision regarding papers will be final</li>
+                        <li className='py-2 font-[600]'>The  conference  welcomes  paper  submission  from  researchers ,  practitioners ,  academicians  and  students .<br /><span className='text-[#000080] cursor-pointer font-semibold'>   (). </span>  </li>
+                        {/* <li className='py-2 font-[400]'>All the accepted and presented papers will be published in UGC CARE JOURNAL (Indian Journal of Technical Education) subject to quality and policy check by the publisher. All rights for presentation & publication of paper are reserved by ICAIISD 2025 and its decision regarding papers will be final</li> */}
                     </ul>
                 </div>
             </div>
@@ -28,14 +28,15 @@ const ManuscriptReviewProcess = () => {
                         <li class='py-2 font-[400]'>Kindly use the Full Paper Template IEEE <b>(Two Column Format)</b> provided on the website for formatting the paper. <br />Full papers should have minimum 4 pages and maximum 6 pages.</li>
                         <li class='py-2 font-[400]'>The paper should be original and should not have been published or submitted for review in any journal or conferences.</li>
                         <li class='py-2 font-[400]'>Plagiarism of any type, if detected, will lead to rejection of the manuscript. No request will be entertained for plagiarism related queries.</li>
+                        <li class='py-2 font-[400]'>The acceptable level of plagiarism is 10% or less. Submissions exceeding this threshold will be automatically rejected.</li>
                         <li class='py-2 font-[400]'>Only two papers per author are permitted for submission.</li>
-                        <li class='py-2 font-[400]'>Please mention the most relevant theme of the manuscript as per the themes mentioned in the EasyChair submission process.</li>
+                        <li class='py-2 font-[400]'>Please mention the most relevant theme of the manuscript as per the themes mentioned in the submission process.</li>
                         <li class='py-2 font-[400]'>Tables, figures, and images should have appropriate captions and be of good visual quality. Each of these items must be cited inline in the main text of the manuscript. References should be provided and properly cited in the paper.</li>
                         <li class='py-2 font-[400]'>If the research included in the manuscript is funded or supported by any institution, agency, or organization etc, please indicate the same under the "Acknowledgement” section of the manuscript at the end of the paper.</li>
                         <li class='py-2 font-[400]'>The paper must be submitted in PDF format only for the review process. Camera Ready Copy will have to be submitted in both Word and PDF formats.</li>
                         <li class='py-2 font-[400]'>Before submitting the manuscript, please ensure that the language used (English) is clear, concise, coherent, and grammatically correct.</li>
-                        <li class='py-2 font-[400]'>Upload the full paper only through the Conference submission Platform: EasyChair<br />
-                            <span class='text-[#000080] cursor-pointer font-semibold'><a href="https://easychair.org/conferences/?conf=ICAIISD2025" >(https://easychair.org/conferences/?conf=ICAIISD2025)</a></span>
+                        <li class='py-2 font-[400]'>Upload the full paper only through the Conference submission Platform: <br />
+                            <span class='text-[#000080] cursor-pointer font-semibold'><a href="https://" >()</a></span>
                         </li>
                     </ul>
                 </div>

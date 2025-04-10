@@ -1,319 +1,156 @@
 import React, { useState, useEffect } from "react";
+import { Link, useLocation } from "react-router-dom";
 import locofy from "./assests/diamond.jpeg";
 import mahalogo from "./assests/mahaLogo.png";
-import { Link, useLocation } from "react-router-dom";
 
 export const NavBar = () => {
   const [isOpen, setIsOpen] = useState(false);
-  const [isMobile, setIsMobile] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  const [showDropdown, setShowDropdown] = useState(false);
   const location = useLocation();
 
-  // Close the navbar when navigating to another page
   useEffect(() => {
     setIsOpen(false);
+    setShowDropdown(false);
   }, [location]);
 
   useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
-      setIsOpen(false); // Close the dropdown when the window is resized
+      setIsOpen(false);
+      setShowDropdown(false);
     };
-
-    handleResize(); // Initial check on component mount
-
     window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  const aboutDropdownItems = [
+    { label: "About", path: "/about" },
+    { label: "CFP", path: "/cfp" },
+    { label: "Presentation Guidelines", path: "/presentation-guide" },
+    { label: "Important Dates", path: "/dates" },
+    { label: "Submission Guidelines", path: "/" },
+    { label: "Conference Tracks", path: "/" },
+    { label: "Publishing and Indexing", path: "/" },
+    { label: "Special Session", path: "/" },
+    { label: "Important Links", path: "/" },
+  ];
+
   return (
-    <nav className="absolute top-0 left-0 w-full z-50 bg-[#FEFFFE] text-[#000080]  shadow-md ">
-      <div className="flex items-center justify-between lg:justify-between   flex-wrap p-2 pb-0 mx-0 lg:mr-4">
-        <Link to="/">
-          <div className="flex items-center justify-center flex-shrink-0 mr-4 md:mr-14 ">
-            <img src={locofy} className="w-[74px] h-[74px]  mr-4" alt="Logo" />
-            <p className=" font-bold text-xl lg:text-3xl tracking-wide">
-              ICAIISD'24
-            </p>
-          </div>
+    <nav className="fixed top-0 left-0 w-full z-50 bg-[#FEFFFE] text-[#000080] shadow-md">
+      
+<div className="flex items-center justify-between px-4 py-2 lg:px-10 flex-wrap lg:flex-nowrap flex space-x-4">
+  
+{/* Logo + Title */}
+        <Link to="/" className="flex items-center">
+          <img src={locofy} className="w-[64px] h-[64px] mr-2" alt="Logo" />
+          <p className="font-bold text-xl sm:text-2xl md:text-3xl whitespace-nowrap">
+            ICAIISD'25
+          </p>
         </Link>
-        <div className="block lg:hidden">
+        
+        {/* Mobile Toggle */}
+        <div className="lg:hidden">
           <button
             onClick={() => setIsOpen(!isOpen)}
-            className="flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400"
+            className="text-black hover:text-gray-600 focus:outline-none"
           >
-            <svg
-              className={`fill-current h-3 w-3 ${isOpen ? "hidden" : "block"}`}
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-            </svg>
-            <svg
-              className={`fill-current h-3 w-3 ${isOpen ? "block" : "hidden"}`}
-              viewBox="0 0 20 20"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
-            </svg>
-          </button>
-        </div>
-        <div
-          className={`w-full lg:flex lg:items-center lg:w-auto ${isOpen ? "block" : "hidden"
-            }`}
-        >
-          <div className="text-md font-medium lg:flex-wrap ">
-            <Link
-              to="/"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200  mr-4 group"
-            >
-              Home
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </Link>
-            <button
-              id="dropdownHoverButton" data-dropdown-toggle="dropdownHover" data-dropdown-trigger="hover"
-              className=" hover:rounded-lg text-md  text-center inline-flex items-center text-[#33358c]-200 group relative mr-4"
-              type="button"
-            >
-              About
-              <svg
-                className="w-2.5 h-2.5 ms-1 mr-4 group-hover:text-[#33358c] pl-0.5"
-                aria-hidden="true"
-                xmlns="http://www.w3.org/2000/svg"
-                fill="none"
-                viewBox="0 0 10 6"
-              >
+            {isOpen ? (
+              <svg className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
                 <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="2"
-                  d="m1 1 4 4 4-4"
+                  fillRule="evenodd"
+                  d="M6 4L14 12M14 4L6 12"
+                  clipRule="evenodd"
                 />
               </svg>
-              <div className="absolute bottom-0 left-0 bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
-            </button>
-            {
-              isMobile && (
-                <ul
-                  class="py-2 text-sm text-[#33358c] "
-                  aria-labelledby="dropdownDefaultButton"
-                >
-                  <li>
-                    <Link
-                      to="/about"
-                      class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      About
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      to="/cfp"
-                      class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      CFP
-                    </Link>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Important Dates
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Submission Guidelines
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block px-2 py-2hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Conference Tracks
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Publishing and Indexing
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Special Session
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="/"
-                      class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                    >
-                      Important Links
-                    </a>
-                  </li>
-                </ul>
-              )
-            }
+            ) : (
+              <svg className="h-6 w-6" viewBox="0 0 20 20" fill="currentColor">
+                <path d="M3 6h14M3 10h14M3 14h14" />
+              </svg>
+            )}
+          </button>
+        </div>
 
+        {/* Main Menu */}
+        <div
+  className={`w-full lg:flex lg:items-center lg:justify-between ${
+    isOpen ? "block mt-4" : "hidden lg:block"
+  }`}
+>
+  <div className="flex flex-col lg:flex-row lg:items-center lg:space-x-6 text-base font-medium lg:ml-16">
+    <Link to="/" className="mt-2 lg:mt-0 group relative">
+      Home
+      <div className="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
+    </Link>
+
+            {/* About Dropdown */}
             <div
-              id="dropdownHover"
-              class="z-20 hidden bg-white divide-y divide-gray-100 rounded-lg shadow w-44  "
+              className="relative group"
+              onMouseEnter={() => !isMobile && setShowDropdown(true)}
+              onMouseLeave={() => !isMobile && setShowDropdown(false)}
             >
-              <ul
-                class="py-2 text-sm text-[#33358c] "
-                aria-labelledby="dropdownDefaultButton"
+              <button
+                type="button"
+                onClick={() => isMobile && setShowDropdown(!showDropdown)}
+                className="mt-2 lg:mt-0 flex items-center group"
               >
-                <li>
-                  <Link
-                    to="/about"
-                    class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    About
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/cfp"
-                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    CFP
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    to="/presentation-guide"
-                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Presentation Guidelines
-                  </Link>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Important Dates
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Submission Guidelines
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Conference Tracks
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Publishing and Indexing
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2  hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Special Session
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="/"
-                    class="block px-4 py-2 hover:text-[#33358c] hover:bg-gray-200"
-                  >
-                    Important Links
-                  </a>
-                </li>
-              </ul>
+                About
+                <svg
+                  className="w-3 h-3 ml-1"
+                  viewBox="0 0 10 6"
+                  fill="none"
+                >
+                  <path
+                    d="M1 1L5 5L9 1"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+
+              {showDropdown && (
+                <ul className="absolute z-30 mt-2 bg-white border border-gray-200 rounded-lg shadow-lg w-60 p-2 lg:block">
+                  {aboutDropdownItems.map((item) => (
+                    <li key={item.label}>
+                      <Link
+                        to={item.path}
+                        className="block px-4 py-2 text-sm text-[#33358c] hover:bg-gray-100"
+                      >
+                        {item.label}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              )}
             </div>
 
-            <Link
-              to="/author-guide"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
-            >
+            <Link to="/author-guide" className="mt-2 lg:mt-0 group relative">
               Guideline
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div className="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
             </Link>
-
-            <Link
-              to="/accommodation"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
-            >
+            <Link to="/accommodation" className="mt-2 lg:mt-0 group relative">
               Accommodation
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div className="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
             </Link>
-
-
-            <Link
-              to="/committees"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
-            >
+            <Link to="/committees" className="mt-2 lg:mt-0 group relative">
               Committees
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div className="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
             </Link>
-            <Link
-              to="/contact"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
-            >
+            <Link to="/contact" className="mt-2 lg:mt-0 group relative">
               Contact
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div className="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
             </Link>
-            <Link
-              to="/register"
-              className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4 group"
-            >
+            <Link to="/register" className="mt-2 lg:mt-0 group relative">
               Submit Paper
-              <div class="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-500"></div>
+              <div className="bg-[#E30022] h-[2px] w-0 group-hover:w-full transition-all duration-300"></div>
             </Link>
-            {/* {
-              isMainPage ? 
-              <a
-                href="#venue"
-                className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
-              >
-                Venue
-              </a>
-              :
-                <Link
-                to='/#venue'
-                className="block mt-4 lg:inline-block lg:mt-0 text-[#33358c]-200 mr-4"
-              >
-                Venue
-              </Link>
-              
-
-            } */}
-
-
-
           </div>
-          <div className="flex">
-            <img src={mahalogo} className="w-[64px] h-[64px] " alt="Logo" />
+
+          {/* Maha Logo */}
+          <div className="flex justify-center mt-4 lg:mt-0">
+            <img src={mahalogo} className="w-[56px] h-[56px]" alt="Maha Logo" />
           </div>
         </div>
       </div>

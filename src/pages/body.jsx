@@ -164,7 +164,7 @@ const Body = () => {
       <p className="lg:px-16 px-6 py-8 text-3xl  font-bold mb-4 lg:mx-10 sm:mx-2 pb-6 lg:pb-4 tracking-wide"><span className="tracking-wide underline underline-offset-8 decoration-4 decoration-[#E30022]">Kno</span>wledge Partner</p>
       <div className="mx-auto flex flex-col justify-center items-center">
 
-        <img src={tcs} alt="tcs-icon" className="h-36 w-80" />
+        <img src={''} alt="Knowledge Partner here" className="h-36 w-80" />
       </div>
       <div className="mx-auto" id="imp">
         {/* <Sponsor users={patrons} word="Patrons" />

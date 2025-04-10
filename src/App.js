@@ -10,6 +10,7 @@ import { Accommodation } from "./pages/accommodation";
 import DeclareSoon from "./pages/declareSoon";
 import Contact from "./pages/contact";
 import Cfp from "./pages/cfp";
+import Dates from "./pages/dates";
 import PresentationGuide from "./pages/presentationGuide";
 import PresentationSchedule from "./pages/presentationSchedule";
 
@@ -22,6 +23,7 @@ export default function HeroComponent() {
         <Route path="/register" element={<Registration/>}/>
         <Route path="/committees" element={<Committees/>} />
         <Route path="/cfp" element={<Cfp/>} />
+        <Route path="/dates" element={<Dates/>} />
         <Route path="/presentation-guide" element={<PresentationGuide/>} />
         <Route path="/presentationSchedule" element={<PresentationSchedule/>} />
         <Route path="/author-guide" element={<AuthorGuidelines/>}/>
