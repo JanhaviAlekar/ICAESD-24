@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import img1 from "./assests/clgRed.jpg";
+import img1 from "./assests/clgRed.webp";
 import newImg from "./new.gif";
 
 export const Hero = () => {
