@@ -4,7 +4,7 @@ const ManuscriptReviewProcess = () => {
     return (
         <>
             <div className="flex justify-center">
-                <div className="max-w-6xl p-6">
+                <div className="max-w-6xl py-6">
                     <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">ICA</span>IISD 2025 Paper Template</p>
                     <ul className="list-disc  ml-6 mb-6 lg:mb-8 leading-relaxed">
                         <li className='py-2'>
@@ -16,7 +16,7 @@ const ManuscriptReviewProcess = () => {
                     </ul>
                     <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Sub</span>mission of Paper</p>
                     <ul className="list-disc  ml-6 leading-relaxed ">
-                        <li className='py-2 font-[600]'>The  conference  welcomes  paper  submission  from  researchers ,  practitioners ,  academicians  and  students .<br /><span className='text-[#000080] cursor-pointer font-semibold'>   (). </span>  </li>
+                        <li className='py-2 font-[600]'>The  conference  welcomes  paper  submission  from  researchers ,  practitioners ,  academicians  and  students .<br /><span className='text-[#000080] cursor-pointer font-semibold'>  </span>  </li>
                         {/* <li className='py-2 font-[400]'>All the accepted and presented papers will be published in UGC CARE JOURNAL (Indian Journal of Technical Education) subject to quality and policy check by the publisher. All rights for presentation & publication of paper are reserved by ICAIISD 2025 and its decision regarding papers will be final</li> */}
                     </ul>
                 </div>
@@ -36,7 +36,7 @@ const ManuscriptReviewProcess = () => {
                         <li class='py-2 font-[400]'>The paper must be submitted in PDF format only for the review process. Camera Ready Copy will have to be submitted in both Word and PDF formats.</li>
                         <li class='py-2 font-[400]'>Before submitting the manuscript, please ensure that the language used (English) is clear, concise, coherent, and grammatically correct.</li>
                         <li class='py-2 font-[400]'>Upload the full paper only through the Conference submission Platform: <br />
-                            <span class='text-[#000080] cursor-pointer font-semibold'><a href="https://" >()</a></span>
+                            <span class='text-[#000080] cursor-pointer font-semibold'><a href="https://" ></a></span>
                         </li>
                     </ul>
                 </div>

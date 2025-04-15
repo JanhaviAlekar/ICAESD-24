@@ -9,8 +9,9 @@ import notableSpeakers from "../components/assests/notable speakers/notableSpeak
 import organizingC from "../components/assests/organizing/organizing"
 import newImg from '../components/new.gif'
 import { Link } from "react-router-dom";
-import tcs from "../components/tcs.jpeg"
+import scrs from "../components/scrsLogo.jpg"
 import { NewAbout } from "../components/newAbout";
+import ConferenceLogos from "../components/conferenceLogos";
 
 const Body = () => {
   return (
@@ -19,6 +20,7 @@ const Body = () => {
         {/* <img src={diamond} className="w-[64px] h-[64px] mr-4" alt="Logo" /> */}
       </div>
       <Hero />
+      <ConferenceLogos />
       {/* <div className="flex justify-center items-center lg:mx-24 mx-6 mt-2">
         <div class="relative flex overflow-x-hidden">
           <div class="flex py-4 animate-marquee whitespace-nowrap">
@@ -162,9 +164,9 @@ const Body = () => {
         </div>
       </div> */}
       <p className="lg:px-16 px-6 py-8 text-3xl  font-bold mb-4 lg:mx-10 sm:mx-2 pb-6 lg:pb-4 tracking-wide"><span className="tracking-wide underline underline-offset-8 decoration-4 decoration-[#E30022]">Kno</span>wledge Partner</p>
-      <div className="mx-auto flex flex-col justify-center items-center">
+      <div className="mx-auto flex flex-col sm:flex-row gap-2 justify-center items-center">
 
-        <img src={''} alt="Knowledge Partner here" className="h-36 w-80" />
+        <img src={scrs} alt="Knowledge Partner here" className="h-20 w-24 sm:h-36 sm:w-40" />
       </div>
       <div className="mx-auto" id="imp">
         {/* <Sponsor users={patrons} word="Patrons" />

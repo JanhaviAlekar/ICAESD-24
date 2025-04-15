@@ -6,7 +6,7 @@ export const About = () => {
                     <span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Abo</span>ut the conference
                 </p>
                 <p className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2 text-justify">
-                    Welcome to ICAIISD 2025 - the International Conference on Artificial Intelligence (AI) Innovations for Societal Development.
+                    Welcome to ICAIISD 2025 - the 2<sup>nd</sup> International Conference on Artificial Intelligence (AI) Innovations for Societal Development.
                     Our goal is to provide a platform for researchers, industry professionals, and students to share innovations and research findings.
                     Scheduled for December 19-20, 2025, this conference aims to foster collaboration and knowledge exchange in Engineering and Technology.
                     <br />

@@ -8,7 +8,7 @@ const RegsiterDetails = () => {
         <>
             <div className="flex justify-center">
                 <div className="max-w-6xl p-6 leading-7">
-                    <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">ICA</span>ESD 2025 Paper Template</p>
+                    <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">ICA</span>IISD 2025 Paper Template</p>
                     <ul className="list-disc  ml-6 mb-6 lg:mb-8 leading-relaxed">
                         <li className='py-2'>
                             <a className='text-[#000080] cursor-pointer font-semibold flex items-center' href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">

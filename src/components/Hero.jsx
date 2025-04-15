@@ -17,7 +17,7 @@ export const Hero = () => {
         <h5 className="lg:text-3xl my-2 font-semibold text-xl">Present's</h5>
         <h3 className="lg:text-6xl text-3xl font-bold lg:font-extrabold tracking-wide">ICAIISD 2025</h3>
         <p className="text-xl font-semibold mt-7">
-          International Conference on Artificial Intelligence (AI) Innovations for Societal Development
+          2<sup>nd</sup> International Conference on Artificial Intelligence (AI) Innovations for Societal Development
         </p>
         <p className="text-xl font-semibold mt-3">Government College of Engineering, Amravati</p>
         <p className="text-xl font-semibold mb-10">Date:&nbsp;&nbsp;19 & 20 December,&nbsp;&nbsp;2025</p>
