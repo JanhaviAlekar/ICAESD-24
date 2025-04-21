@@ -1,11 +1,14 @@
 {
   "name": "ieee",
+  "homepage": "https://icaiisd25.gcoea.ac.in",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "framer-motion": "^12.7.4",
+    "lucide-react": "^0.501.0",
     "react": "^18.2.0",
     "react-awesome-reveal": "^4.2.8",
     "react-dom": "^18.2.0",

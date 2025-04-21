@@ -1,21 +1,32 @@
 import data from "../components/assests/faculty.json";
 
 const DepartmentHead = () => {
-    const committee = data.faculty;
-    return (
-        <div className="flex flex-col items-start">
-            {
-                committee.map(({ name_of_faculty, department }, index) => {
-                    return (
-                        <div key={index} className="flex flex-row p-2 my-2">
-                            <div className="font-bold mr-2">{department} :</div>
-                            <div className="ml-2">{name_of_faculty}</div>
-                        </div>
-                    );
-                })
-            }
-        </div>
-    );
+  const committee = data.faculty;
+
+  return (
+    <section className="mb-16">
+      <div className="flex flex-col gap-4">
+        {committee.map(({ name_of_faculty, department }, index) => {
+          const [name, position] = name_of_faculty?.split("()").map((item) => item.trim()) || ["", ""];
+
+          return (
+            <div
+              key={index}
+              className="bg-white border border-blue-900 rounded-xl px-4 py-3 shadow-sm"
+            >
+              <p className="text-md font-semibold text-blue-950">{name}</p>
+              <p className="text-gray-700">
+                {department}{" "}
+                {position && (
+                  <span className="text-sm text-gray-500">({position})</span>
+                )}
+              </p>
+            </div>
+          );
+        })}
+      </div>
+    </section>
+  );
 };
 
 export default DepartmentHead;

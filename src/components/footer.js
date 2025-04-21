@@ -76,9 +76,9 @@ export const Footer = () => {
 		</div>
 	</div>
 
-	<div className="py-4 text-sm text-center dark:text-gray-600">©2025 GCoE, Amaravti All Rights Reserved.
+	<div className="py-4 text-sm text-center dark:text-gray-600">©2025 GCoE, Amravati All Rights Reserved.
   <br />
-  Developed by <a href="https://in.linkedin.com/in/janhavi-alekar-72864b22a" className="hover:underline ml-2">Janhavi Alekar</a>  
+  Developed by <a href="" className="hover:underline ml-2">Website Development Team ICAIISD 25</a>  
 
 </div>
 

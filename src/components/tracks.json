@@ -1,49 +1,43 @@
 {
     "tracks": [
       {
-        "title": "Electronics System Design & Manufacturing"
+        "title": "AI in Medical Diagnosis, Medical Imaging and Building Assistive Medical Devices "
       },
       {
-        "title": "Communications Systems & Signal Processing"
+        "title": "Research areas for AI in Healthcare and Human Development"
       },
       {
-        "title": "Internet Technology & Society"
+        "title": "AI for Social Development"
       },
       {
-        "title": "Big Data and Internet of Things"
+        "title": "AI in Remote Sensing and Weather Forecasting"
       },
       {
-        "title": "Machine Learning and Deep Learning"
+        "title": "AI Driven signal/Image Processing"
       },
       {
-        "title": "Network and Cyber Security"
+        "title": "Artificial Intelligence of things (AIoT)"
       },
       {
-        "title": "New Generation Biomedical Equipment"
+        "title": "AI powered Chip Design"
       },
       {
-        "title": "IoT Based Instrumentation Application"
+        "title": "AI & ML in Telecommunication"
       },
       {
-        "title": "Nano Science and Nanotechnology"
+        "title": "Use of AI in Smart and Sustainable Cities"
       },
       {
-        "title": "Geo-Hazards and Risk Assessment"
+        "title": "AI in Agricultural and Rural Development"
       },
       {
-        "title": "Structural Health Monitoring"
+        "title": "AI and IoT: Future Ahead"
       },
       {
-        "title": "New & Renewable Energy Sources"
+        "title": "AI in Network and Information Security"
       },
       {
-        "title": "Advances in Manufacturing"
-      },
-      {
-        "title": "Power Electronics and Drives"
-      },
-      {
-        "title": "AI/ML Applications in Electrical Engineering"
+        "title": "AI in Education System"
       }
     ]
   }

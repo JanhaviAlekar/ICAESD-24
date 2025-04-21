@@ -1,30 +1,160 @@
 {
-    "committee_members": [
-      {
-        "Sr.No.": 1,
-        "Responsibility": "Conference Chair",
-        "Name_of_Faculty": "Dr. A.M. Mahalle (Principal)"
-      },
-      {
-        "Sr.No.": 2,
-        "Responsibility": "General Chair",
-        "Name_of_Faculty": "Dr. R.M. Metkar (Dean R&I)"
-      },
-      {
-        "Sr.No.": 3,
-        "Responsibility": "Organizing Chair & Convener",
-        "Name_of_Faculty": "Prof. A.W. Bhade"
-      },
-      {
-        "Sr.No.": 4,
-        "Responsibility": "Organizing Chair & Convener",
-        "Name_of_Faculty": "Dr. S.A. Lohi"
-      },
-      {
-        "Sr.No.": 5,
-        "Responsibility": "Organizing Chair & Co-Convener",
-        "Name_of_Faculty": "Prof. R.V. Mante"
-      }
-    ]
-  }
+  "committee_members": [
+    {
+      "Sr.No.": 1,
+      "Responsibility": "General Chair",
+      "Name_of_Faculty": "Dr. A.M. Mahalle (Principal)"
+    },
+    {
+      "Sr.No.": 2,
+      "Responsibility": "Conference Chair",
+      "Name_of_Faculty": "Dr. R.M. Metkar (Dean R&I)"
+    },
+    {
+      "Sr.No.": 3,
+      "Responsibility": "Organizing Chair & Convener",
+      "Name_of_Faculty": "Prof. A.W. Bhade"
+    },
+    {
+      "Sr.No.": 4,
+      "Responsibility": "Organizing Chair & Convener",
+      "Name_of_Faculty": "Dr. S.A. Lohi"
+    },
+    {
+      "Sr.No.": 5,
+      "Responsibility": "Organizing Chair & Co-Convener",
+      "Name_of_Faculty": "Prof. R.V. Mante"
+    },{
+      "Sr.No.": 6,
+  "Name_of_Faculty": "Dr. Prajwal Panzade",
+  "Responsibility": "Old Dominion University, Virginia, United States"
   
+    },
+        {
+          "Sr.No.": 7,
+          "Name_of_Faculty": "Dr. Sneha Kanchan",
+          "Responsibility": "Universiti Tunku Abdul Rahman, Malaysia"
+        },
+        {
+          "Sr.No.": 8,
+          "Name_of_Faculty": "Mr. Mayur Bodakhe",
+          "Responsibility": "IBM Consulting UKI, London, England"
+        },
+        {
+          "Sr.No.": 9,
+          "Name_of_Faculty": "Mr. Datta Telang",
+          "Responsibility": "Vice President of Software Engineering, JPMorgan, USA"
+        },
+        {
+          "Sr.No.": 10,
+          "Name_of_Faculty": "Mr. Ajinkya Chatur",
+          "Responsibility": "Senior software Developer U.S. Bank, Austin, Texas, United States"
+        },
+        {
+          "Sr.No.": 11,
+          "Name_of_Faculty": "Dr. Sachin Jain",
+          "Responsibility": "Oklahama State University Stillwater, Oklahoma, US"
+        },
+        {
+          "Sr.No.": 12,
+          "Name_of_Faculty": "Mr. Madhu Anand",
+          "Responsibility": "HCL Technologies, Singapore"
+        },
+        {
+          "Sr.No.": 13,
+          "Name_of_Faculty": "Mr. Sameer Sharma",
+          "Responsibility": "Senior Executive, Chicago"
+        },
+        {
+          "Sr.No.": 14,
+          "Name_of_Faculty": "Dr. Ravindra Keskar",
+          "Responsibility": "CSE Dept, VNIT, Nagpur Chairman, ACM Nagpur Local Chapter"
+        },
+        {
+          "Sr.No.": 15,
+          "Name_of_Faculty": "Prof. Somitra Sanadhya",
+          "Responsibility": "CSE Dept, IIT Jodhpur"
+        },
+        {
+          "Sr.No.": 16,
+          "Name_of_Faculty": "Prof. S.B.Dhok",
+          "Responsibility": "VNIT, Nagpur"
+        },
+        {
+          "Sr.No.": 17,
+          "Name_of_Faculty": "Dr. S.B. Deosarkar",
+          "Responsibility": "Dr BabaSaheb Ambedkar Technological University, Lonare"
+        },
+        {
+          "Sr.No.": 18,
+          "Name_of_Faculty": "Dr. J.C.Bansal",
+          "Responsibility": "South Asian University, New Delhi "
+        },
+        {
+          "Sr.No.": 19,
+          "Name_of_Faculty": "Dr. Shyam Akashe",
+          "Responsibility": "Electronics & Communication Engineering Dept, ITM University, Gwalior"
+        },
+        {
+          "Sr.No.": 20,
+          "Name_of_Faculty": "Dr. Kusum Deep",
+          "Responsibility": "Dept. of Mathematics, IIT Roorkee"
+        },
+        {
+          "Sr.No.": 21,
+          "Name_of_Faculty": "Dr. Sandeep Kumar",
+          "Responsibility": "Christ University, Bangalore"
+        },
+        {
+          "Sr.No.": 22,
+          "Name_of_Faculty": "Dr. Maheshkumar H. Kolekar",
+          "Responsibility": "IIT Patna"
+        },
+        {
+          "Sr.No.": 23,
+          "Name_of_Faculty": "Dr. Anil Mokhade",
+          "Responsibility": "CSE Dept ,VNIT, Nagpur"
+        },
+        {
+          "Sr.No.": 24,
+          "Name_of_Faculty": "Dr. Ashish Tiwari",
+          "Responsibility": "CSE Dept, VNIT, Nagpur"
+        },
+        {
+          "Sr.No.": 25,
+          "Name_of_Faculty": "Dr. Amol Bhopale",
+          "Responsibility": "CSE Dept, IIIT, Nagpur"
+        } ,
+        {
+          "Sr.No.": 26,
+          "Name_of_Faculty": "Dr. Vasundhara Rathod",
+          "Responsibility": "CSE Dept, IIIT, Nagpur"
+        } ,
+        {
+          "Sr.No.": 27,
+          "Name_of_Faculty": "Dr. Ravindra Jogekar",
+          "Responsibility": "Executive Council Member, ACM Nagpur Local Chapter"
+        } ,
+        {
+          "Sr.No.": 28,
+          "Name_of_Faculty": "Mr. Sameer Sawarkar",
+          "Responsibility": "Co-Founder & Chief Executive Officer at Neurosynaptic Communications Pvt. Ltd."
+        } ,
+        {
+          "Sr.No.": 29,
+          "Name_of_Faculty": "Dr. Harish Gorewar",
+          "Responsibility": "IT Dept. KDKCE, Nagpur"
+        } ,
+        {
+          "Sr.No.": 30,
+          "Name_of_Faculty": "Dr. Shailendra Aote",
+          "Responsibility": "School of Technolody, Management & Engineering NMIMS,Navi Mumbai"
+        } ,
+
+        {
+          "Sr.No.": 31,
+          "Name_of_Faculty": "Mr. Anant Deshmukh",
+          "Responsibility": "Chief Technology Officer, ICICI Prudential Asset Management, Mumbai, India"
+        }    
+  ]
+}

@@ -1,28 +1,21 @@
-import React from 'react'
+import React from 'react';
 
-function SponsorCard({ img, name,detail}) {
+function SponsorCard({ img, name, detail }) {
   return (
-    <>
-      {' '}
-     <div className="flex flex-col justify-center max-w-xs py-1  w-[300px] md:w-[250px] lg:w-[300px] h-[350px] shadow-md rounded-xl sm:px-12 dark:bg-gray-50 dark:text-gray-800">
-        <img
-          src={img}
-          alt=""
-          className="w-36 h-36 mx-auto rounded-full dark:bg-gray-500 aspect-square"
-        />
-        <div className="space-y-4 text-center divide-y dark:divide-gray-300">
-          <div className="my-2 space-y-1">
-            <h2 className="text-lg font-semibold sm:text-md" >{name }</h2>
-            <i><p className="px-0.5 text-xs sm:text-base dark:text-gray-600 font-[300]">
-             {detail}
-            </p></i>
-          </div>
-         
-        </div>
+    <div className="flex flex-col items-center bg-white rounded-2xl shadow-md hover:shadow-xl hover:scale-105 transition-all duration-300 w-full max-w-xs md:max-w-[230px] h-[320px] px-6 py-6 border border-blue-800">
+      <img
+        src={img}
+        alt={name}
+        className="w-28 h-28 rounded-full border-2 border-blue-800 mb-4 transition-transform duration-300 hover:rotate-1 "
+      />
+      <div className="text-center">
+        <h2 className="text font-semibold text-[#000080]">{name}</h2>
+        <p className="text-red-500 text-sm mt-2 font-dark bold">
+          {detail}
+        </p>
       </div>
-
-    </>
-  )
+    </div>
+  );
 }
 
 export default SponsorCard;

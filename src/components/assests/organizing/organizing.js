@@ -3,32 +3,56 @@ import archanabhademaam from "./archanabhademaam.jpg"
 import Principal from "./principalsir.jpg"
 import Metkar from "./Rmetkar.jpeg"
 import mantesir from "./mantesir.jpg"
+import BVReddy from "./BVenugopalsir.jpeg"
+import VinodM from "./VinodMohitkar.jpg"
+import Sachin from "./Sachin-Mandavgane.png"
+import Manoj from "./manoj.jpeg"
 //notable speakers
 const users = [
   {
-    name: 'Dr. A.M. Mahalle (Principal)',
+    name: 'Shri. B. Venugopal Reddy , IAS',
+    img: BVReddy,
+    detail: 'Hon. Addl. Chief Secretary, Higher & Technical Education , Mumbai'
+  },
+  {
+    name: 'Dr. Sachin A. Mandhavgane',
+    img: Sachin,
+    detail: 'Hon. Chairman , BoG , GCoEA & Professor Chemical Engineering , VNIT , Nagpur'
+  },
+  {
+    name: 'Dr. Vinod M. Mohitkar',
+    img: VinodM,
+    detail: 'Hon. Director , Directorate of Technical Education , Mumbai'
+  },
+  {
+    name: 'Mr. Manoj M. Andhare ',
+    img: Manoj,
+    detail: 'I/C Joint Director Technical Education Regional Office , Amravati'
+  },
+  {
+    name: 'Dr. A.M. Mahalle',
     img: Principal,
-    detail :'Conference chair & Principal, GCOEA'
+    detail :'General Chair & Principal, GCoEA'
   },
   {
     name: 'Dr. R.M. Metkar',
     img:  Metkar,
-    detail :'General Chair & Dean(Research & Innovation), GCOEA'
-  },
-  {
-    name: 'Dr. S.A. Lohi',
-    img: Lohi,
-    detail :`Organizing Chair & Convener (ICAIISD) GCOEA`
+    detail :'Conference Chair & Dean(Research & Innovation), GCoEA'
   },
   {
     name: 'Prof. A.W. Bhade',
     img : archanabhademaam,
-    detail :`Organizing Chair & Convener (ICAIISD) GCOEA`
+    detail :`Organizing Chair & Convener (ICAIISD) GCoEA`
+  },
+  {
+    name: 'Dr. S.A. Lohi',
+    img: Lohi,
+    detail :`Organizing Chair & Convener (ICAIISD) GCoEA`
   },
   {
     name: 'Prof. R.V. Mante',
     img : mantesir,
-    detail :`Organizing Chair & Convener (ICAIISD) GCOEA`
+    detail :`Organizing Chair & Co-Convener (ICAIISD) GCoEA`
   },
 ]
 export default users

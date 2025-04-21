@@ -10,7 +10,7 @@ const ImportantDates = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 pt-20 px-4 md:px-10">
+    <div className="min-h-screen bg-gray-50 pt-5 px-4 md:px-10">
       {/* Space for Top Navbar */}
       <div className="max-w-4xl mx-auto bg-white p-6 rounded-2xl shadow-lg">
         <h1 className="text-3xl font-bold text-[#E30022] mb-6 border-b-2 border-[#E30022] pb-2">

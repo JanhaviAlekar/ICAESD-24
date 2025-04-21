@@ -16,7 +16,7 @@ import ConferenceLogos from "../components/conferenceLogos";
 const Body = () => {
   return (
     <>
-      <div className="mt-[74px] px-4 pt-2 bg-white flex items-center justify-center">
+      <div className="mt-[1px] px-4 pt-0 bg-white flex items-center justify-center">
         {/* <img src={diamond} className="w-[64px] h-[64px] mr-4" alt="Logo" /> */}
       </div>
       <Hero />
@@ -171,7 +171,7 @@ const Body = () => {
       <div className="mx-auto" id="imp">
         {/* <Sponsor users={patrons} word="Patrons" />
         <Sponsor users={notableSpeakers} word="International Advisory Board" /> */}
-        <Sponsor users={organizingC} word="Organizing Committee" />
+        <Sponsor users={organizingC} word="" />
       </div>
       {/* <hr className="my-10 w-[300px] mx-auto h-px border-t-0 bg-transparent bg-gradient-to-r from-transparent via-neutral-300 to-transparent opacity-25 dark:opacity-100" /> */}
 

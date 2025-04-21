@@ -2,7 +2,7 @@
     "faculty": [
       {
         "sr_no": 1,
-        "name_of_faculty": "Dr. A.M. Mahalle",
+        "name_of_faculty": "Prof. S.K Hirde",
         "designation": "Head",
         "department": "Civil Engineering"
       },
@@ -46,7 +46,19 @@
         "sr_no": 8,
         "name_of_faculty": "Dr. D.A. Zatale",
         "designation": "Head",
-        "department": "First Year"
+        "department": "Physics Department"
+      },
+      {
+        "sr_no": 9,
+        "name_of_faculty": "Prof. S.K Doifode ",
+        "designation": "Head",
+        "department": "Chemistry Department"
+      },
+      {
+        "sr_no": 10,
+        "name_of_faculty": "Prof.  ",
+        "designation": "Head",
+        "department": "Mathematics Department"
       }
     ]
   }
