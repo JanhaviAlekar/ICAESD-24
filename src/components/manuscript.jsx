@@ -5,16 +5,16 @@ const ManuscriptReviewProcess = () => {
         <>
             <div className="flex justify-center">
                 <div className="max-w-6xl py-6">
-                    <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">ICA</span>IISD 2025 Paper Template</p>
+                    <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Aut</span>hor Guidelines</p>
                     <ul className="list-disc  ml-6 mb-6 lg:mb-8 leading-relaxed">
                         <li className='py-2'>
-                            <a className='text-[#000080] cursor-pointer font-semibold flex items-center' href="https://docs.google.com/document/d/1FqbPM4Ud88WSJW7vWN5WM7bpcKL7CI3i/edit?usp=sharing&ouid=110172478495944119850&rtpof=true&sd=true">
+                            <a className='text-[#000080] cursor-pointer font-semibold flex items-center' href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/edit?usp=sharing">
                                 ICAIISD 2025 Paper Template Download from here
                                 <img className="h-4 ml-2" src={newImg} alt="Submit Icon" />
                             </a>
                         </li>
                     </ul>
-                    <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Sub</span>mission of Paper</p>
+                    <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Sub</span>mission Of Paper</p>
                     <ul className="list-disc  ml-6 leading-relaxed ">
                         <li className='py-2 font-[600]'>The  conference  welcomes  paper  submission  from  researchers ,  practitioners ,  academicians  and  students .<br /><span className='text-[#000080] cursor-pointer font-semibold'>  </span>  </li>
                         {/* <li className='py-2 font-[400]'>All the accepted and presented papers will be published in UGC CARE JOURNAL (Indian Journal of Technical Education) subject to quality and policy check by the publisher. All rights for presentation & publication of paper are reserved by ICAIISD 2025 and its decision regarding papers will be final</li> */}
@@ -23,7 +23,7 @@ const ManuscriptReviewProcess = () => {
             </div>
             <div className="flex justify-center">
                 <div className="max-w-6xl p-6">
-                    <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Sub</span>mission Process:</p>
+                    <p className="text-3xl font-bold mb-4 tracking-wide leading-normal"><span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Sub</span>mission Guidelines:</p>
                     <ul className="list-disc  ml-6 leading-relaxed ">
                         <li class='py-2 font-[400]'>Kindly use the Full Paper Template IEEE <b>(Two Column Format)</b> provided on the website for formatting the paper. <br />Full papers should have minimum 4 pages and maximum 6 pages.</li>
                         <li class='py-2 font-[400]'>The paper should be original and should not have been published or submitted for review in any journal or conferences.</li>

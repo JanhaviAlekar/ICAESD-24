@@ -10,47 +10,47 @@ import Manoj from "./manoj.jpeg"
 //notable speakers
 const users = [
   {
-    name: 'Shri. B. Venugopal Reddy , IAS',
+    name: 'Shri. B. Venugopal Reddy, IAS',
     img: BVReddy,
-    detail: 'Hon. Addl. Chief Secretary, Higher & Technical Education , Mumbai'
+    detail: 'Hon. Addl. Chief Secretary, Higher & Technical Education  Mumbai'
   },
   {
     name: 'Dr. Sachin A. Mandhavgane',
     img: Sachin,
-    detail: 'Hon. Chairman , BoG , GCoEA & Professor Chemical Engineering , VNIT , Nagpur'
+    detail: 'Hon. Chairman BoG Professor, Chemical Engineering Dept. VNIT, Nagpur'
   },
   {
     name: 'Dr. Vinod M. Mohitkar',
     img: VinodM,
-    detail: 'Hon. Director , Directorate of Technical Education , Mumbai'
+    detail: 'Hon. Director, Directorate of Technical Education Mumbai'
   },
   {
     name: 'Mr. Manoj M. Andhare ',
     img: Manoj,
-    detail: 'I/C Joint Director Technical Education Regional Office , Amravati'
+    detail: 'I/C Joint Director Technical Education Regional Office,  Amravati'
   },
   {
-    name: 'Dr. A.M. Mahalle',
+    name: 'Dr. Ashish M. Mahalle',
     img: Principal,
-    detail :'General Chair & Principal, GCoEA'
+    detail :'General Chair & Principal GCoEA'
   },
   {
-    name: 'Dr. R.M. Metkar',
+    name: 'Dr. Rajesh M. Metkar',
     img:  Metkar,
-    detail :'Conference Chair & Dean(Research & Innovation), GCoEA'
+    detail :'Conference Chair & Dean (Research & Innovations) GCoEA'
   },
   {
-    name: 'Prof. A.W. Bhade',
+    name: 'Prof. Archana W. Bhade',
     img : archanabhademaam,
     detail :`Organizing Chair & Convener (ICAIISD) GCoEA`
   },
   {
-    name: 'Dr. S.A. Lohi',
+    name: 'Dr. Shantanu A. Lohi',
     img: Lohi,
     detail :`Organizing Chair & Convener (ICAIISD) GCoEA`
   },
   {
-    name: 'Prof. R.V. Mante',
+    name: 'Prof. Ravi V. Mante',
     img : mantesir,
     detail :`Organizing Chair & Co-Convener (ICAIISD) GCoEA`
   },
