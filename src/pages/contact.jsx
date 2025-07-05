@@ -10,7 +10,7 @@ const Contact = () => {
                     <strong>Location:</strong> Government College of Engineering, Near Kathora Square, VMV Road, Amravati, Maharashtra, India, 444604
                 </p>
                 <p class="text-gray-700 mt-2">
-                    <strong>Email:</strong> <a href="mailto:ICAIISD25@gmail.com" class="text-blue-500 hover:underline">ICAIISD25@gmail.com</a>
+                    <strong>Email:</strong> <a href="mailto:icaiisd25@gcoea.ac.in" class="text-blue-500 hover:underline">icaiisd25@gcoea.ac.in</a>
                 </p>
             </div>
         </div>

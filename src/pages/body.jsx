@@ -10,6 +10,11 @@
   import newImg from '../components/new.gif'
   import { Link } from "react-router-dom";
   import scrs from "../components/scrsLogo.jpg"
+  import amc from"../components/amc.jpg"
+  import tatam from "../components/tatam.png"
+  import tcs from "../components/tcs.jpeg"
+  import ijit from "../components/ijit.jpeg"
+import springer from "../components/springer.png"
   import ConferenceLogos from "../components/conferenceLogos";
 import { useLocation } from "react-router-dom";
 import { useEffect } from "react";
@@ -175,13 +180,55 @@ import { useEffect } from "react";
             </ul>
           </div>
         </div> */}
-        <div className="bg-purple-700 p-10">
-        <p className="lg:px-16 px-6 py-8 text-3xl text-white text-center font-bold mb-4 lg:mx-10 sm:mx-2 tracking-wide bg-purple-700"><span className="tracking-wide underline underline-offset-8 decoration-4 decoration-[#E30022]">Kno</span>wledge Partner</p>
-        <div className="mx-auto flex flex-col sm:flex-row gap-2 justify-center items-center bg-puple-700">
+        <div className="px-4 md:px-8 lg:px-16 py-10 bg-gray-100">
+  <div className="flex flex-col lg:flex-row gap-8 justify-center items-stretch">
+    
+    {/* Knowledge Partner Card */}
+    <div className="bg-purple-700 flex-1 rounded-2xl p-6 text-center shadow-lg">
+      <p className="text-2xl sm:text-3xl text-white font-bold mb-6 tracking-wide">
+        <span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">
+          Kno
+        </span>
+        wledge Partner
+      </p>
+      <div className="flex justify-center items-center">
+        <img src={scrs} alt="Knowledge Partner Logo" className="h-20 w-24 sm:h-36 sm:w-40" />
+        <img src={tatam} alt="Knowledge Partner Logo" className="h-20 w-24 sm:h-36 sm:w-40" />
+        <img src={tcs} alt="Knowledge Partner Logo" className="h-20 w-24 sm:h-36 sm:w-40" />
 
-          <img src={scrs} alt="Knowledge Partner here" className="h-20 w-24 sm:h-36 sm:w-40" />
-        </div>
-        </div>
+      </div>
+    </div>
+
+    {/* Technology Partner Card */}
+    <div className="bg-purple-700 flex-1 rounded-2xl p-6 text-center shadow-lg">
+      <p className="text-2xl sm:text-3xl text-white font-bold mb-6 tracking-wide">
+        <span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">
+          Tec
+        </span>
+        hnology Partner
+      </p>
+      <div className="flex justify-center items-center">
+        <img src={amc} alt="Technology Partner Logo" className="h-20 w-24 sm:h-36 sm:w-40" />
+      </div>
+    </div>
+
+    <div className="bg-purple-700 flex-1 rounded-2xl p-6 text-center shadow-lg">
+      <p className="text-2xl sm:text-3xl text-white font-bold mb-6 tracking-wide">
+        <span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">
+          Pub
+        </span>
+        lication Partner
+      </p>
+      <div className="flex justify-center items-center">
+        <img src={ijit} alt="Technology Partner Logo" className="h-20 w-24 sm:h-36 sm:w-40" />
+        <img src={springer} alt="Technology Partner Logo" className="h-20 w-24 sm:h-36 sm:w-40" />
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <section id="submission-guideline">
             <div className="flex justify-center px-4 sm:px-6 lg:px-8">
   <div className="max-w-6xl w-full space-y-12 py-10">
@@ -222,25 +269,24 @@ import { useEffect } from "react";
         <span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Sub</span>mission Guidelines
       </h2>
       <ul className="list-disc ml-6 space-y-4 text-lg text-gray-700 leading-relaxed">
-        <li>Use the Full Paper Template IEEE <b>(Two Column Format)</b>. Papers should be 4–6 pages long.</li>
-        <li>Papers must be original and not published/submitted elsewhere.</li>
-        <li>Any detected plagiarism will result in immediate rejection.</li>
-        <li>Acceptable plagiarism level is 10% or less.</li>
-        <li>Each author may submit a maximum of two papers.</li>
-        <li>Indicate the most relevant theme during submission.</li>
-        <li>Ensure all tables, figures, and images have captions and are referenced in the text.</li>
-        <li>If funded by any institution or agency, include acknowledgements at the end of the paper.</li>
-        <li>Submit the paper in PDF format for review. Camera-ready version must be in both Word and PDF formats.</li>
-        <li>Ensure proper grammar, clarity, and coherence in English.</li>
+        <li>Use the Full Paper Template IEEE Two Column Format. Number of Pages Must be 06 only.</li>
+        <li>Papers must be original work and have been not published/submitted elsewhere.</li>
+        <li>Plagiarism/Similarity index of the paper must be 10% or less.</li>
+        <li>Plagiarism level above 10% will attract immediate rejection of the paper.</li>
+        <li>Indicate the most relevant theme during the paper submission.</li>
+        <li>Ensure all tables, figures and images have captions and are referenced in the text properly.</li>
+        <li>If  Paper/Research work is funded by any institution or agency, include acknowledgement.</li>
+        <li>Submit the paper in PDF format for review. CRC version must be in both Word and PDF formats.</li>
+        <li>Ensure proper grammar, clarity and coherence in English language of the paper.</li>
         <li>
           Upload the full paper through the official conference submission portal:<br />
           <a 
-            href="https://" 
+            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICAIISD2025%2FSubmission%2FManage" 
             className="text-[#000080] font-semibold hover:underline hover:text-blue-900 transition"
             target="_blank" 
             rel="noopener noreferrer"
           >
-            Conference Submission Portal
+                CMT submission link
           </a>
         </li>
       </ul>

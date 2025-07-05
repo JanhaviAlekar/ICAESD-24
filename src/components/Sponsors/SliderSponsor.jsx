@@ -11,7 +11,7 @@ function SliderSponsor({ users }) {
   const committee = users.slice(4);
 
   return (
-    <div className="w-full px-4 md:px-8">
+    <div className="w-full px-4 md:px-8 bg-purple-100 p-6 "> 
       {/* Mobile View - Swiper */}
       <div className="block md:hidden">
         <Swiper

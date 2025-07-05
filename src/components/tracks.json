@@ -1,43 +1,55 @@
 {
     "tracks": [
       {
-        "title": "AI in Medical Diagnosis, Medical Imaging and Building Assistive Medical Devices "
+        "title": " AI in Healthcare and Human Development "
       },
       {
-        "title": "Research areas for AI in Healthcare and Human Development"
+        "title": " AI in Education "
       },
       {
-        "title": "AI for Social Development"
+        "title": " AI in Agriculture "
       },
       {
-        "title": "AI in Remote Sensing and Weather Forecasting"
+        "title": " AI in Rural Development "
       },
       {
-        "title": "AI Driven signal/Image Processing"
+        "title": " AI in Remote Sensing and Weather Forecasting "
       },
       {
-        "title": "Artificial Intelligence of things (AIoT)"
+        "title": " AI Driven Signal and Image Processing "
       },
       {
-        "title": "AI powered Chip Design"
+        "title": " AI in AR/VR "
       },
       {
-        "title": "AI & ML in Telecommunication"
+        "title": " AI for Internet-of-Things (AI-IoT) "
       },
       {
-        "title": "Use of AI in Smart and Sustainable Cities"
+        "title": " AI Powered Chip Design "
       },
       {
-        "title": "AI in Agricultural and Rural Development"
+        "title": " AI in Communications "
       },
       {
-        "title": "AI and IoT: Future Ahead"
+        "title": " AI in Smart and Sustainable Cities "
       },
       {
-        "title": "AI in Network and Information Security"
+        "title": " AI in Robotics and Mechatronics "
       },
       {
-        "title": "AI in Education System"
+        "title": " AI in Information Security "
+      },
+       {
+        "title": "  AI in Architecture and Building Planning "
+      }, {
+        "title": " AI for Empowerment of Persons with Disabilities "
+      }, {
+        "title": " AI for Social Media "
+      }, {
+        "title": " AI in FinTech "
+      },
+      {
+        "title":" AI in Renewable Energy "
       }
     ]
   }

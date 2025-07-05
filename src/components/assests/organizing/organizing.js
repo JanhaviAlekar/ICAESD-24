@@ -15,7 +15,7 @@ const users = [
     detail: 'Hon. Addl. Chief Secretary, Higher & Technical Education  Mumbai'
   },
   {
-    name: 'Dr. Sachin A. Mandhavgane',
+    name: 'Dr. Sachin A. Mandavgane',
     img: Sachin,
     detail: 'Hon. Chairman BoG Professor, Chemical Engineering Dept. VNIT, Nagpur'
   },
@@ -40,7 +40,7 @@ const users = [
     detail :'Conference Chair & Dean (Research & Innovations) GCoEA'
   },
   {
-    name: 'Prof. Archana W. Bhade',
+    name: 'Dr Anjana N. Ghule',
     img : archanabhademaam,
     detail :`Organizing Chair & Convener (ICAIISD) GCoEA`
   },

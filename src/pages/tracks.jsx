@@ -10,20 +10,26 @@ import {
 } from "lucide-react";
 
 const tracks = [
-  "AI in Medical Diagnosis, Medical Imaging and Building Assistive Medical Devices",
-  "Research areas for AI in Healthcare and Human Development",
-  "AI for Social Development",
+  "AI in Healthcare and Human Development",
+  "AI in Education",
+  "AI in Agriculture",
+  "AI in Rural Development",
   "AI in Remote Sensing and Weather Forecasting",
-  "AI Driven signal/Image Processing",
-  "Artificial Intelligence of Things (AIoT)",
-  "AI powered Chip Design",
-  "AI & ML in Telecommunication",
-  "Use of AI in Smart and Sustainable Cities",
-  "AI in Agricultural and Rural Development",
-  "AI and IoT: Future Ahead",
-  "AI in Network and Information Security",
-  "AI in Education System",
+  "AI Driven Signal and Image Processing",
+  "AI in AR/VR",
+  "AI for Internet-of-Things (AI-IoT)",
+  "AI Powered Chip Design",
+  "AI in Communications",
+  "AI in Smart and Sustainable Cities",
+  "AI in Robotics and Mechatronics",
+  "AI in Information Security",
+  "AI in Architecture and Building Planning",
+  "AI for Empowerment of Persons with Disabilities",
+  "AI for Social Media",
+  "AI in FinTech",
+  "AI in Renewable Energy"
 ];
+
 
 const icons = [
   Brain,

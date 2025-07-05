@@ -3,27 +3,28 @@
     {
       "Sr.No.": 1,
       "Responsibility": "General Chair",
-      "Name_of_Faculty": "Dr. A.M. Mahalle (Principal)"
+      "Name_of_Faculty": "Dr. A. M. Mahalle (Principal)"
     },
     {
       "Sr.No.": 2,
       "Responsibility": "Conference Chair",
-      "Name_of_Faculty": "Dr. R.M. Metkar (Dean R&I)"
+      "Name_of_Faculty": "Dr. R. M. Metkar (Dean R&I)"
     },
-    {
+     {
       "Sr.No.": 3,
       "Responsibility": "Organizing Chair & Convener",
-      "Name_of_Faculty": "Prof. A.W. Bhade"
+      "Name_of_Faculty": "Dr. S. A. Lohi"
     },
     {
       "Sr.No.": 4,
       "Responsibility": "Organizing Chair & Convener",
-      "Name_of_Faculty": "Dr. S.A. Lohi"
+      "Name_of_Faculty": "Dr. A .N. Ghule"
     },
+   
     {
       "Sr.No.": 5,
       "Responsibility": "Organizing Chair & Co-Convener",
-      "Name_of_Faculty": "Prof. R.V. Mante"
+      "Name_of_Faculty": "Prof. R. V. Mante"
     },{
       "Sr.No.": 6,
   "Name_of_Faculty": "Dr. Prajwal Panzade",
@@ -77,17 +78,17 @@
         },
         {
           "Sr.No.": 16,
-          "Name_of_Faculty": "Prof. S.B.Dhok",
+          "Name_of_Faculty": "Prof. S. B. Dhok",
           "Responsibility": "VNIT, Nagpur"
         },
         {
           "Sr.No.": 17,
-          "Name_of_Faculty": "Dr. S.B. Deosarkar",
+          "Name_of_Faculty": "Dr. S. B. Deosarkar",
           "Responsibility": "Dr BabaSaheb Ambedkar Technological University, Lonare"
         },
         {
           "Sr.No.": 18,
-          "Name_of_Faculty": "Dr. J.C.Bansal",
+          "Name_of_Faculty": "Dr. J. C. Bansal",
           "Responsibility": "South Asian University, New Delhi "
         },
         {
@@ -95,61 +96,63 @@
           "Name_of_Faculty": "Dr. Shyam Akashe",
           "Responsibility": "Electronics & Communication Engineering Dept, ITM University, Gwalior"
         },
+      
         {
           "Sr.No.": 20,
-          "Name_of_Faculty": "Dr. Sandeep Kumar",
-          "Responsibility": "Christ University, Bangalore"
-        },
-        {
-          "Sr.No.": 21,
           "Name_of_Faculty": "Dr. Maheshkumar H. Kolekar",
           "Responsibility": "IIT Patna"
         },
         {
-          "Sr.No.": 22,
+          "Sr.No.": 21,
           "Name_of_Faculty": "Dr. Anil Mokhade",
           "Responsibility": "CSE Dept ,VNIT, Nagpur"
         },
         {
-          "Sr.No.": 23,
+          "Sr.No.": 22,
           "Name_of_Faculty": "Dr. Ashish Tiwari",
           "Responsibility": "CSE Dept, VNIT, Nagpur"
         },
         {
-          "Sr.No.": 24,
+          "Sr.No.": 23,
           "Name_of_Faculty": "Dr. Amol Bhopale",
           "Responsibility": "CSE Dept, IIIT, Nagpur"
         } ,
         {
-          "Sr.No.": 25,
+          "Sr.No.": 24,
           "Name_of_Faculty": "Dr. Vasundhara Rathod",
           "Responsibility": "CSE Dept, IIIT, Nagpur"
         } ,
         {
-          "Sr.No.": 26,
+          "Sr.No.": 25,
           "Name_of_Faculty": "Dr. Ravindra Jogekar",
           "Responsibility": "Executive Council Member, ACM Nagpur Local Chapter"
         } ,
         {
-          "Sr.No.": 27,
+          "Sr.No.": 26,
           "Name_of_Faculty": "Mr. Sameer Sawarkar",
           "Responsibility": "Co-Founder & Chief Executive Officer at Neurosynaptic Communications Pvt. Ltd."
         } ,
         {
-          "Sr.No.": 28,
+          "Sr.No.": 27,
           "Name_of_Faculty": "Dr. Harish Gorewar",
           "Responsibility": "IT Dept. KDKCE, Nagpur"
         } ,
         {
-          "Sr.No.": 29,
+          "Sr.No.": 28,
           "Name_of_Faculty": "Dr. Shailendra Aote",
           "Responsibility": "School of Technolody, Management & Engineering NMIMS,Navi Mumbai"
         } ,
 
         {
-          "Sr.No.": 30,
+          "Sr.No.": 29,
           "Name_of_Faculty": "Mr. Anant Deshmukh",
           "Responsibility": "Chief Technology Officer, ICICI Prudential Asset Management, Mumbai, India"
-        }    
+        } ,
+        {
+          "Sr.No.": 30,
+          "Name_of_Faculty": "Dr. Urmila Shrawankar",
+          "Responsibility": "Director, School of Computer Science and Engineering Ramdeobaba University, Nagpur"
+        
+        }   
   ]
 }

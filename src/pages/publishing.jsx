@@ -18,18 +18,29 @@ const Publishing = () => {
         </div>
         <div className="text-md lg:text-lg font-light text-justify text-gray-700 space-y-4 lg:mx-10 sm:mx-2">
           <p>
-           The paper publication in the Scopus/Peer-review journals/Proceeding is subjected to the review and acceptance by the publishing journal. 
+The paper publication in the Scopus Indexed Journal is subjected to the review and acceptance by the publisher. 
           </p>
           <p>
-            GCoEA/ICAIISD25 Team in no ways be responsible for the article publication and its article publishing fee (if applicable) in the Scopus Indexed Journals/Proceedings. 
+GCoEA/ICAIISD 2025 Team in no ways be responsible for the article publication and its article publishing fee (if applicable) in the Scopus Indexed Journal.          </p>
+          <p>
+            After the paper is presented in the conference, only the accepted and presented papers will be forwarded to the publication journal for further process.            </p>
+          <p>
+All communications regarding publication in the Scopus Indexed Journal will be made ONLY by the Journal Publication and NOT by the GCoEA/ICAIISD 2025.
           </p>
-          <p>
-            After the paper is presented in the conference, only the accepted and presented papers will be forwarded to the publication house for further process.            </p>
-          <p>
-All communications regarding publication in the Scopus Indexed Journals/ Proceedings will be made ONLY by the Publication House/Partner and NOT by the GCoEA/ICAIISD25.          </p>
         </div>
       </section>
-
+<section>
+        <div>
+          <h2 >
+              CMT ACKNOWLEDGMENT
+          </h2>
+        </div>
+        <div>
+          <p>
+       "The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support."
+       </p>
+    </div>
+      </section>
       
     </div>
   );

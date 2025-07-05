@@ -1,22 +1,27 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Lightbulb, Brain, Satellite, ShieldCheck, TreePine, School } from 'lucide-react';
-
 const tracks = [
-  "AI in Medical Diagnosis, Medical Imaging and Building Assistive Medical Devices",
-  "Research areas for AI in Healthcare and Human Development",
-  "AI for Social Development",
+  "AI in Healthcare and Human Development",
+  "AI in Education",
+  "AI in Agriculture",
+  "AI in Rural Development",
   "AI in Remote Sensing and Weather Forecasting",
-  "AI Driven signal/Image Processing",
-  "Artificial Intelligence of things (AIoT)",
-  "AI powered Chip Design",
-  "AI & ML in Telecommunication",
-  "Use of AI in Smart and Sustainable Cities",
-  "AI in Agricultural and Rural Development",
-  "AI and IoT: Future Ahead",
-  "AI in Network and Information Security",
-  "AI in Education System"
+  "AI Driven Signal and Image Processing",
+  "AI in AR/VR",
+  "AI for Internet-of-Things (AI-IoT)",
+  "AI Powered Chip Design",
+  "AI in Communications",
+  "AI in Smart and Sustainable Cities",
+  "AI in Robotics and Mechatronics",
+  "AI in Information Security",
+  "AI in Architecture and Building Planning",
+  "AI for Empowerment of Persons with Disabilities",
+  "AI for Social Media",
+  "AI in FinTech",
+  "AI in Renewable Energy"
 ];
+
 
 const icons = [
   Brain, Brain, Lightbulb, Satellite, Lightbulb, TreePine, Brain,
@@ -49,8 +54,10 @@ export const About = () => {
         <span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Abo</span>ut   GCoEA
       </p>
       <p className="text-md lg:text-lg font-[300] lg:mx-10 sm:mx-2 text-justify text-gray-700">
-      Government College of Engineering, Amravati (GCOEA) is one of the oldest engineering institutes in the state of Maharashtra, India, located in Amravati .It was established in 1964 by the Government of Maharashtra, along with three other Government institutes at Pune, Aurangabad, and Karad. It was initially affiliated to Nagpur University and later on shifted to Amravati University now Sant Gadge Baba Amravati University SGBAU) in 1982. The Institute started with three basic disciplines Civil, Mechanical and Electrical Engineering initially. Subsequently new degree programs in Electronic & Telecommunication, Computer Science & Engineering, Instrumentation Engineering and Information Technology were added as per the demand, need and requirements of the country.
-      </p>
+Government College of Engineering, Amravati (GCoEA) is one of the oldest engineering institutes in the state of Maharashtra, India, located in Amravati. It was established in 1964 by the Government of Maharashtra.The institute was granted Autonomy by UGC in 2005-06. The institute is a recipient of TEQIP-I and TEQIP-II grant by World Bank Project.
+The Institute started with three basic disciplines Civil, Mechanical and Electrical Engineering initially. Subsequently new degree programs in Electronics & Telecommunication, Computer Science & Engineering, Instrumentation Engineering and Information Technology were added as per the demand, need and requirements of the country.
+The institute now offers eight full time PG programs in Electrical Power Systems, Structural Engineering, Thermal Engineering, Environmental Engineering, Computer Science & Engineering, Geotechnical Engineering, Production Engineering and Electronics System & Communication.
+It also has recognized research centers for Ph.D. Programs in Civil, Mechanical, Electrical, Electronics, Computer Engineering, Information Technology, Chemistry and Physics for Sant Gadge Baba Amravati University.      </p>
     </div>
   </div>
 </div>

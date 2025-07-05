@@ -54,14 +54,11 @@ const About = () => {
         </div>
         <div className="text-md lg:text-lg font-light text-justify text-gray-700 space-y-4 lg:mx-10 sm:mx-2">
           <p>
-          Government College of Engineering, Amravati (GCOEA) is one of the oldest engineering institutes in the state of Maharashtra, India, located in Amravati .It was established in 1964 by the Government of Maharashtra, along with three other Government institutes at Pune, Aurangabad, and Karad. It was initially affiliated to Nagpur University and later on shifted to Amravati University now Sant Gadge Baba Amravati University SGBAU) in 1982. The Institute started with three basic disciplines Civil, Mechanical and Electrical Engineering initially. Subsequently new degree programs in Electronic & Telecommunication, Computer Science & Engineering, Instrumentation Engineering and Information Technology were added as per the demand, need and requirements of the country.
-          </p>
-          <p>
-          The institute started part time Post Graduate course in Electrical Power System in 1986 and later added four P.G. Courses in Thermal Power Engineering, Environmental, Geotechnical, and Electronics Systems and Communication. The institute now offers seven full time PG programs in Electrical Power Systems, Structures, Thermal Power Engineering., Environmental Engineering., Advanced Electronics, Computer Engineering and Geotechnical Engineering.
-          </p>
-          <p>
-          Besides imparting Engineering education in all major Disciplines, it is also a recognized research center for Ph.D. Programs in Civil, Mechanical, Electrical, Electronics and Computer Engineering for Amravati University. The total student strength is around 1,700.
-          </p>
+Government College of Engineering, Amravati (GCoEA) is one of the oldest engineering institutes in the state of Maharashtra, India, located in Amravati. It was established in 1964 by the Government of Maharashtra.The institute was granted Autonomy by UGC in 2005-06. The institute is a recipient of TEQIP-I and TEQIP-II grant by World Bank Project.
+The Institute started with three basic disciplines Civil, Mechanical and Electrical Engineering initially. Subsequently new degree programs in Electronics & Telecommunication, Computer Science & Engineering, Instrumentation Engineering and Information Technology were added as per the demand, need and requirements of the country.
+The institute now offers eight full time PG programs in Electrical Power Systems, Structural Engineering, Thermal Engineering, Environmental Engineering, Computer Science & Engineering, Geotechnical Engineering, Production Engineering and Electronics System & Communication.
+It also has recognized research centers for Ph.D. Programs in Civil, Mechanical, Electrical, Electronics, Computer Engineering, Information Technology, Chemistry and Physics for Snat Gadge Baba Amravati University.          </p>
+          
         </div>
       </section>
     </div>
