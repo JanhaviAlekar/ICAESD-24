@@ -220,8 +220,7 @@ import { useEffect } from "react";
         lication Partner
       </p>
       <div className="flex justify-center items-center">
-        <img src={ijit} alt="Technology Partner Logo" className="h-20 w-24 sm:h-36 sm:w-40" />
-        <img src={springer} alt="Technology Partner Logo" className="h-20 w-24 sm:h-36 sm:w-40" />
+        <img src={ijit} alt="Technology Partner Logo" className="h-20 w-50 sm:h-36 sm:w-85" />
 
       </div>
     </div>
@@ -259,7 +258,16 @@ import { useEffect } from "react";
         <span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Sub</span>mission Of Paper
       </h2>
       <p className="text-lg font-medium leading-relaxed text-gray-800">
-        The conference welcomes paper submissions from researchers, practitioners, academicians, and students.
+        The conference welcomes paper submission from researchers, practitioners, academicians and student through Microsoft</p>
+        <a 
+            href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICAIISD2025%2FSubmission%2FManage" 
+            className="text-[#000080] text-lg underline font-semibold  hover:text-blue-900 transition"
+            target="_blank" 
+            rel="noopener noreferrer"
+          >
+                CMT submission link
+          </a>
+        <p className="text-lg text-align-justify   font-medium leading-relaxed text-gray-800"> All the accepted and presented papers will be published in (Scopus Indexed Springer Nature) International Journal of Information Technology ISSN: 2511-2104 subject to the acceptance of paper by the Journal. All the rights for presentation  of the paper are reserved by ICAIISD 2025 Team. For journal publication, the Journal Editorial Board reserves the right of rejecting any paper or all the papers, at any stage of its consideration, without assigning any reason. The decision of the Journal Editor-in-Chief shall be final and binding on all.
       </p>
     </section>
 
@@ -268,7 +276,7 @@ import { useEffect } from "react";
       <h2 className="text-4xl font-extrabold tracking-tight text-gray-900 mb-6">
         <span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">Sub</span>mission Guidelines
       </h2>
-      <ul className="list-disc ml-6 space-y-4 text-lg text-gray-700 leading-relaxed">
+      <ul className="list-disc ml-6 space-y-4 text-lg font-medium leading-relaxed text-gray-800 leading-relaxed ">
         <li>Use the Full Paper Template IEEE Two Column Format. Number of Pages Must be 06 only.</li>
         <li>Papers must be original work and have been not published/submitted elsewhere.</li>
         <li>Plagiarism/Similarity index of the paper must be 10% or less.</li>
@@ -282,7 +290,7 @@ import { useEffect } from "react";
           Upload the full paper through the official conference submission portal:<br />
           <a 
             href="https://cmt3.research.microsoft.com/User/Login?ReturnUrl=%2FICAIISD2025%2FSubmission%2FManage" 
-            className="text-[#000080] font-semibold hover:underline hover:text-blue-900 transition"
+            className="text-[#000080] underline font-semibold hover:underline hover:text-blue-900 transition"
             target="_blank" 
             rel="noopener noreferrer"
           >

@@ -2,7 +2,7 @@ export const Accommodation = () => {
     return (
         <div className="mt-[90px] mb-20">
             <div className="container mx-auto px-4">
-                <h1 className="text-2xl font-bold text-[#000080] px-6">List of hotels:</h1>
+                <h1 className="text-2xl font-bold text-[#000080] px-6"><b>List of hotels</b> (Tentative Rates - Actual Rates May Vary):</h1>
                 {/* h1 */}
                 <div className="container mx-auto px-4 py-4">
 

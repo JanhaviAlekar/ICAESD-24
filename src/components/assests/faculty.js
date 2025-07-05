@@ -13,7 +13,7 @@ const faculty = [
     sr_no: 1,
     name_of_faculty: "Prof. S. K. Hirde",
     designation: "Head",
-    department: "Civil Engineering",
+    department: "Civil Engineering & Applied Mechanics",
     img: hirdeMaam
   },
   {
@@ -39,24 +39,24 @@ const faculty = [
   },
   {
     sr_no: 5,
-    name_of_faculty: "Dr. G. G. Bhutada",
-    designation: "Head",
-    department: "Instrumentation Engineering",
-    img: bhutadaSir
-  },
-  {
-    sr_no: 6,
     name_of_faculty: "Prof. A. V. Deorankar",
     designation: "Head",
-    department: "Computer Science Engineering",
+    department: "Computer Science & Engineering",
     img: devrankarSir
   },
   {
-    sr_no: 7,
+    sr_no: 6,
     name_of_faculty: "Prof. B. V. Wakode",
     designation: "Head",
     department: "Information Technology",
     img: wakodeSir
+  },
+  {
+    sr_no: 7,
+    name_of_faculty: "Dr. G. G. Bhutada",
+    designation: "Head",
+    department: "Instrumentation Engineering",
+    img: bhutadaSir
   },
   {
     sr_no: 8,

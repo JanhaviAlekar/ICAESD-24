@@ -154,5 +154,36 @@
           "Responsibility": "Director, School of Computer Science and Engineering Ramdeobaba University, Nagpur"
         
         }   
+        ,
+        {
+          "Sr.No.": 31,
+          "Name_of_Faculty": "Dr. Somitra Sanadhya",
+          "Responsibility": "CSE Dept., IIT Jodhpur"
+        
+        }   ,
+        {
+          "Sr.No.": 32,
+          "Name_of_Faculty": "Dr. Harish Gorewar",
+          "Responsibility": "IT Dept. KDKCE, Nagpur"
+        
+        }   ,
+        {
+          "Sr.No.": 33,
+          "Name_of_Faculty": "Dr. Snehal A. Bode",
+          "Responsibility": "CSE Dept., Bharati Vidyapeeth (Deemed to be University), Navi Mumbai ACM Member"
+        
+        }   ,
+        {
+          "Sr.No.": 34,
+          "Name_of_Faculty": "Mr. Rahul Ghodeswar",
+          "Responsibility": "Senior Consultant, TCS Nagpur"
+        
+        }   ,
+        {
+          "Sr.No.": 35,
+          "Name_of_Faculty": "Mr. Rahul Sawant",
+          "Responsibility": "Founder & Director Q-UP App Pune"
+        
+        }   
   ]
 }
