@@ -1,4 +1,4 @@
-import user from "./students/user.png";
+import user from "./user.png";
 import krishnaborakhad from "./students/krishnaborakhad.png";
 import purvabisne from "./students/purvabisne.jpeg";
 import vashishraja from "./students/vashishraja.png";
@@ -9,6 +9,8 @@ import shalakadeshpande from "./students/shalakadeshpande.jpg";
 import yashhirukar from "./students/yashhirukar.jpg";
 import swarajgujar from "./students/swarajgujar.jpg";
 import rohitgaikwad from "./students/rohitgaikwad.jpeg";
+import gaurigadgi from "./students/gaurigadgil.png";
+import sharvarisawarkar from "./students/sharvarisawarkar.png";
 
 const student = [
   {
@@ -51,7 +53,7 @@ const student = [
     sr_no: 7,
     name_of_student: "Gauri Vihar Gadgil",
     designation: "CMT Coordinator",
-    img: user,
+    img: gaurigadgi,
   },
   {
     sr_no: 6,
@@ -81,7 +83,7 @@ const student = [
     sr_no: 11,
     name_of_student: "Sharvari Sudhakar Sawarkar",
     designation: "Pre Event Associate",
-    img: user,
+    img: sharvarisawarkar,
   },
   {
     sr_no: 12,

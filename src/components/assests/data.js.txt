@@ -1,0 +1,246 @@
+import defaultimg from "./students/user.png";
+
+// Deasns Images
+import Chaudhari from "../assests/deans/R.R.Chaudhary.png";
+import MVJape from "../assests/deans/m_jape.jpeg";
+import Ghate from "../assests/deans/v_ghate.jpeg";
+import Thorkar from "../assests/deans/prof_u_thorkar.jpeg";
+import MMDeshmukh from "../assests/deans/MMDeshmukh.jpg";
+import Rmetkar from "../assests/organizing/Rmetkar.jpeg";
+
+//  Head of Departments Images
+import japeSir from "./organizing/japeSir.jpeg";
+import devrankarSir from "./organizing/devrankarSir.jpeg";
+import deshmukhSir from "./organizing/deshmukhSir.jpeg";
+import bhutadaSir from "./organizing/bhutadaSir.jpeg";
+import zataleSir from "./organizing/zataleSir.jpeg";
+import daluSir from "./organizing/daluSir.jpeg";
+import hirdeMaam from "./organizing/hirdeMaam.jpg";
+import wakodeSir from "./organizing/wakodeSir.jpeg";
+
+// Students Images
+import krishnaborakhad from "./students/krishnaborakhad.png";
+import purvabisne from "./students/purvabisne.jpeg";
+import vashishraja from "./students/vashishraja.png";
+import deveshpatil from "./students/deveshpatil.png";
+import piyushsachwani from "./students/piyushsachwani.png";
+import madhuryathakare from "./students/madhuryathakare.png";
+import shalakadeshpande from "./students/shalakadeshpande.jpg";
+import yashhirukar from "./students/yashhirukar.jpg";
+import swarajgujar from "./students/swarajgujar.jpg";
+import rohitgaikwad from "./students/rohitgaikwad.jpeg";
+
+import student from "./students";
+
+const committee_members = [
+  {
+    sr_no: 1,
+    Responsibility: "General Chair",
+    name: "Dr. A. M. Mahalle (Principal)",
+  },
+  {
+    sr_no: 2,
+    Responsibility: "Conference Chair",
+    name: "Dr. R. M. Metkar (Dean R&I)",
+  },
+  {
+    sr_no: 3,
+    Responsibility: "Organizing Chair & Convener",
+    name: "Dr. S. A. Lohi",
+  },
+  {
+    sr_no: 4,
+    Responsibility: "Organizing Chair & Convener",
+    name: "Dr. A .N. Ghule",
+  },
+
+  {
+    sr_no: 5,
+    Responsibility: "Organizing Chair & Co-Convener",
+    name: "Prof. R. V. Mante",
+  },
+];
+
+//Deans Data
+const deans = [
+  {
+    sr_no: 1,
+    name: "Dr. R. R. Chaudhari",
+    designation: "Dean, Academics",
+    img: Chaudhari,
+  },
+  {
+    sr_no: 2,
+    name: "Dr. R. M. Metkar",
+    designation: "Dean, Research and Development",
+    img: Rmetkar,
+  },
+  {
+    sr_no: 3,
+    name: "Dr. M. V. Jape",
+    designation: "Dean Students’ Welfare",
+    img: MVJape,
+  },
+  {
+    sr_no: 4,
+    name: "Prof. M. M. Deshmukh",
+    designation: "Dean, Training and Placement",
+    img: MMDeshmukh,
+  },
+  {
+    sr_no: 5,
+    name: "Dr. V. N. Ghate",
+    designation: "Dean, Planning and Administration",
+    img: Ghate,
+  },
+  {
+    sr_no: 6,
+    name: "Prof. U. M. Thorkar",
+    designation: "Dean, Quality Assurance",
+    img: Thorkar,
+  },
+];
+
+//   Head of Departments Data
+const faculty = [
+  {
+    sr_no: 1,
+    name: "Prof. S. K. Hirde",
+    designation: "Head",
+    department: "Civil Engineering & Applied Mechanics",
+    img: hirdeMaam,
+  },
+  {
+    sr_no: 2,
+    name: "Dr. R. S. Dalu",
+    designation: "Head",
+    department: "Mechanical Engineering",
+    img: daluSir,
+  },
+  {
+    sr_no: 3,
+    name: "Dr. V. M. Jape",
+    designation: "Head",
+    department: "Electrical Engineering",
+    img: japeSir,
+  },
+  {
+    sr_no: 4,
+    name: "Dr. P. R. Deshmukh",
+    designation: "Head",
+    department: "Electronics & Telecommunication Engineering",
+    img: deshmukhSir,
+  },
+  {
+    sr_no: 5,
+    name: "Prof. A. V. Deorankar",
+    designation: "Head",
+    department: "Computer Science & Engineering",
+    img: devrankarSir,
+  },
+  {
+    sr_no: 6,
+    name: "Prof. B. V. Wakode",
+    designation: "Head",
+    department: "Information Technology",
+    img: wakodeSir,
+  },
+  {
+    sr_no: 7,
+    name: "Dr. G. G. Bhutada",
+    designation: "Head",
+    department: "Instrumentation Engineering",
+    img: bhutadaSir,
+  },
+  {
+    sr_no: 8,
+    name: "Dr. D. A. Zatale",
+    designation: "Head",
+    department: "Science & Humanities",
+    img: zataleSir,
+  },
+];
+
+// Students Data
+const student = [
+  {
+    sr_no: 1,
+    name: "Krishna Sanjay Borakhade",
+    designation: "Convenor",
+    img: krishnaborakhad,
+  },
+  {
+    sr_no: 2,
+    name: "Purva Vijay Bisne",
+    designation: "Co-Convenor",
+    img: purvabisne,
+  },
+  {
+    sr_no: 3,
+    name: "Vashish Jayesh Raja",
+    designation: "Website & Digital Lead",
+    img: vashishraja,
+  },
+  {
+    sr_no: 4,
+    name: "Devesh Manohar Patil",
+    designation: "Website & Digital Associate",
+    img: deveshpatil,
+  },
+  {
+    sr_no: 13,
+    name: "Piyush Rajesh Sachwani",
+    designation: "Finance & Audit Associate",
+    img: piyushsachwani,
+  },
+  {
+    sr_no: 5,
+    name: "Rohit Gaikwad",
+    designation: "Designing & Visual Identity Lead",
+    img: rohitgaikwad,
+  },
+  {
+    sr_no: 7,
+    name: "Gauri Vihar Gadgil",
+    designation: "CMT Coordinator",
+    img: defaultimg,
+  },
+  {
+    sr_no: 6,
+    name: "Shalaka Suhas Deshpande",
+    designation: "CMT Co-Coordinator",
+    img: shalakadeshpande,
+  },
+  {
+    sr_no: 8,
+    name: "Yash A. Hirulkar",
+    designation: "Printing & Production Lead",
+    img: yashhirukar,
+  },
+  {
+    sr_no: 9,
+    name: "Swaraj R. Gujar",
+    designation: "Printing & Production Associate",
+    img: swarajgujar,
+  },
+  {
+    sr_no: 10,
+    name: "Madhurya Vismay Thakare",
+    designation: "Publicity & Media Relations Lead",
+    img: madhuryathakare,
+  },
+  {
+    sr_no: 11,
+    name: "Sharvari Sudhakar Sawarkar",
+    designation: "Pre Event Associate",
+    img: defaultimg,
+  },
+  {
+    sr_no: 12,
+    name: "Arya Anil Kuralkar",
+    designation: "Pre Event Associate",
+    img: defaultimg,
+  },
+];
+
+export default { faculty, deans, committee_members, student };
