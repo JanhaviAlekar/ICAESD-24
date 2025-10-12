@@ -7,9 +7,9 @@ const ImportantDates = () => {
       oldDate: "15th August 2025",
       newDate: "CMT Paper Submission CLOSED",
     },
-    { title: "Acceptance/Rejection Notification", date: "30th September 2025" },
-    { title: "Registration", date: "15th October 2025" },
-    { title: "Final Paper/Camera Ready Submission", date: "30th October 2025" },
+    { title: "Acceptance/Rejection Notification", date: "15th October 2025" },
+    { title: "Registration", date: "25th October 2025" },
+    { title: "Final Paper/Camera Ready Submission", date: "5th November 2025" },
     { title: "Conference Date", date: "19-20th December 2025" },
   ];
 
