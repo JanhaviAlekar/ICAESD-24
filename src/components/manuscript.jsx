@@ -15,17 +15,27 @@ const ManuscriptReviewProcess = () => {
               hor Guidelines
             </h2>
             <ul className="list-disc ml-6 space-y-3 text-lg text-gray-800">
-              <li>
-                <a
-                  className="text-[#000080] font-semibold flex items-center hover:underline"
-                  href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/edit?usp=sharing"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  ICAIISD 2025 Paper Template Download from here
-                  <img className="h-4 ml-2" src={newImg} alt="New" />
-                </a>
-              </li>
+             <li>
+  <a
+    className="text-[#000080] font-semibold flex items-center hover:underline"
+    href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/edit?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    ICAIISD 2025 Paper Template Download from here
+    <img className="h-4 ml-2" src={newImg} alt="New" />
+  </a>
+
+  {/* Download Button */}
+  <a
+    href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/export?format=docx"
+    download
+    className="mt-2 inline-block bg-[#000080] text-white px-4 py-2 rounded-lg shadow-md hover:bg-[#0000cc] transition"
+  >
+    📥 Download Word File
+  </a>
+</li>
+
             </ul>
           </section>
 
@@ -48,7 +58,7 @@ const ManuscriptReviewProcess = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                CMT submission link
+                CMT Paper Submission CLOSED
               </a>
               <p>
                 All the accepted and presented papers will be published in
@@ -165,7 +175,7 @@ const ManuscriptReviewProcess = () => {
               <li>
                 All the manuscripts with permitted plagiarism will be sent for
                 technical and quality review. Double review process is
-                applicable for all papers. Reviewer's comments will be
+                applicable for all papers. Review process will be updated by 15th October. Reviewer's comments will be
                 communicated to the respective authors. Manuscripts recommended
                 for revision by the reviewers will be reverted to the respective
                 author with a notification for re-submission within a week's

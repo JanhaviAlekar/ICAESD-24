@@ -25,20 +25,35 @@ const ConferenceLogos = () => {
       </h2>
 
       {/* Important Dates */}
-      <div className="w-full max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-white">
-        {[
-          { label: "Full Paper Submission", date: "15th August 2025", color: "bg-red-600" },
-          { label: "Acceptance / Rejection", date: "30th September 2025", color: "bg-blue-600" },
-          { label: "Registration", date: "15th October 2025", color: "bg-green-600" },
-          { label: "Camera Ready Submission", date: "30th October 2025", color: "bg-yellow-600 " },
-          { label: "Conference Dates", date: "19–20th December 2025", color: "bg-pink-600" },
-        ].map(({ label, date, color }, index) => (
-          <div key={index} className={`${color} rounded-xl py-6 px-4 text-center shadow-md`}>
-            <h4 className="text-lg font-bold">{label}</h4>
-            <p className="mt-2 text-base">{date}</p>
-          </div>
-        ))}
-      </div>
+     <div className="w-full max-w-7xl grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4 text-white">
+  {[
+    {
+      label: "Full Paper Submission",
+      oldDate: "15th August 2025",
+      newDate: "CMT Paper Submission CLOSED",
+      color: "bg-red-600"
+    },
+    { label: "Acceptance / Rejection", date: "30th September 2025", color: "bg-blue-600" },
+    { label: "Registration", date: "15th October 2025", color: "bg-green-600" },
+    { label: "Camera Ready Submission", date: "30th October 2025", color: "bg-yellow-600" },
+    { label: "Conference Dates", date: "19–20th December 2025", color: "bg-pink-600" },
+  ].map(({ label, oldDate, newDate, date, color }, index) => (
+    <div key={index} className={`${color} rounded-xl py-6 px-4 text-center shadow-md`}>
+      <h4 className="text-lg font-bold">{label}</h4>
+      {oldDate && newDate ? (
+        <div className="mt-2">
+          <p className="line-through opacity-75 text-sm">{oldDate}</p>
+          <p className="mt-1 text-lg font-semibold bg-white text-black px-3 py-1 rounded-full inline-block shadow-sm">
+            {newDate}
+          </p>
+        </div>
+      ) : (
+        <p className="mt-2 text-base">{date}</p>
+      )}
+    </div>
+  ))}
+</div>
+
 
       {/* Legacy Title */}
       <p className="text-2xl sm:text-3xl lg:text-4xl font-bold text-center text-white tracking-wide px-4">
