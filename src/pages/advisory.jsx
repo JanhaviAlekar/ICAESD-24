@@ -1,37 +1,41 @@
-import { motion } from 'framer-motion';
+import { motion } from "framer-motion";
 import data from "../components/assests/committee.json";
 import DepartmentHead from "./headOfDept";
 
 const advisory = () => {
   const committee = data.committee_members;
 
-//   const coreCommittee = committee.slice(0, 5);
+  //   const coreCommittee = committee.slice(0, 5);
   const advisoryBoard = committee.slice(5, 13);
   const nationalAdvisoryBoard = committee.slice(13);
 
   const fadeInUp = {
     hidden: { opacity: 0, y: 30 },
-    visible: (i: number) => ({
+    visible: (i) => ({
       opacity: 1,
       y: 0,
       transition: {
         delay: i * 0.1,
         duration: 0.6,
-        ease: 'easeOut',
+        ease: "easeOut",
       },
     }),
   };
 
-  const sectionTitle = (text: string) => (
+  const sectionTitle = (text) => (
     <p className="text-3xl font-bold tracking-wide leading-normal mb-6">
-      <span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">{text.slice(0, 4)}</span>
+      <span className="underline underline-offset-8 decoration-4 decoration-[#E30022]">
+        {text.slice(0, 4)}
+      </span>
       {text.slice(4)}
     </p>
   );
 
-  const renderCards = (list: typeof committee, offset: number = 0) =>
+  const renderCards = (list, offset = 0) =>
     list.map(({ Responsibility, Name_of_Faculty }, index) => {
-      const [name, position] = Name_of_Faculty.split('()').map((item) => item.trim());
+      const [name, position] = Name_of_Faculty.split("()").map((item) =>
+        item.trim()
+      );
       return (
         <motion.div
           key={index + offset}
@@ -46,7 +50,9 @@ const advisory = () => {
           <p className="text-md font-semibold text-blue-950">{name}</p>
           <p className="text-gray-700">
             {Responsibility}{" "}
-            {position && <span className="text-sm text-gray-500">({position})</span>}
+            {position && (
+              <span className="text-sm text-gray-500">({position})</span>
+            )}
           </p>
         </motion.div>
       );

@@ -13,25 +13,25 @@ const RegsiterDetails = () => {
           </h1>
           <ul className="list-disc pl-6 text-lg font-medium">
             <li>
-  <a
-    className="text-[#000080] font-semibold flex items-center hover:underline"
-    href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/edit?usp=sharing"
-    target="_blank"
-    rel="noopener noreferrer"
-  >
-    ICAIISD 2025 Paper Template Download from here
-    <img className="h-4 ml-2" src={newImg1} alt="New" />
-  </a>
+              <a
+                className="text-[#000080] font-semibold flex items-center hover:underline"
+                href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/edit?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                ICAIISD 2025 Paper Template Download from here
+                <img className="h-4 ml-2" src={newImg1} alt="New" />
+              </a>
 
-  {/* Download Button */}
-  <a
-    href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/export?format=docx"
-    download
-    className="mt-2 inline-block bg-[#000080] text-white px-4 py-2 rounded-lg shadow-md hover:bg-[#0000cc] transition"
-  >
-    📥 Download Word File
-  </a>
-</li>
+              {/* Download Button */}
+              <a
+                href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/export?format=docx"
+                download
+                className="mt-2 inline-block bg-[#000080] text-white px-4 py-2 rounded-lg shadow-md hover:bg-[#0000cc] transition"
+              >
+                📥 Download Word File
+              </a>
+            </li>
 
           </ul>
         </div>
@@ -58,13 +58,14 @@ const RegsiterDetails = () => {
           {/* Step 1 */}
           <div className="bg-purple-50 border-l-4 border-purple-700 p-4 rounded-md mb-6">
             <p className="font-semibold text-purple-800 mb-2">Step 1: Fee Submission</p>
-            <p className="text-base mb-2">Pay the registration fee (online only) to:</p>
+            <p className="text-base mb-2"><span className='text-blue-400 underline'>Link</span> Coming Soon</p>
+            {/* <p className="text-base mb-2">Pay the registration fee (online only) to:</p>
             <ul className="list-disc pl-6 text-base space-y-1">
               <li>Account Name: Principal Government College of Engineering, Amravati</li>
               <li>Account No.: 30775554748</li>
               <li>IFSC Code: SBIN0012011</li>
               <li>Bank Name: State Bank of India, Gadge Nagar Branch Amravati</li>
-            </ul>
+            </ul> */}
           </div>
 
           {/* Fee Table */}
@@ -97,10 +98,19 @@ const RegsiterDetails = () => {
             <strong className="text-purple-800">Step 2: Fill Registration Form</strong><br />
             After payment, authors must complete the Conference/Attendee Registration Form.
           </p>
-
-          <p className="text-red-700 font-semibold text-sm mt-6">
+          <p className="text-base mb-2"><span className='text-blue-400 underline'>Link</span> Coming Soon</p>
+          {/* <p className="text-red-700 font-semibold text-sm mt-6">
             * Registration fees once paid will not be refunded under any circumstances.
-          </p>
+          </p> */}
+        </div>
+
+        {/* Step 3  */}
+        <div className="bg-purple-100 text-gray-900 rounded-2xl p-6 shadow-md">
+          <p className="mb-4 text-base"><strong className="text-purple-800">Step 3: Camera Ready Submission</strong></p>
+          <p className="text-base mb-2"><span className='text-blue-400 underline'>Link</span> Coming Soon</p>
+          {/* <p className="text-red-700 font-semibold text-sm mt-6">
+            * Registration fees once paid will not be refunded under any circumstances.
+          </p> */}
         </div>
       </div>
     </div>

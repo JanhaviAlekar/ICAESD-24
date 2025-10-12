@@ -33,9 +33,9 @@ const ConferenceLogos = () => {
       newDate: "CMT Paper Submission CLOSED",
       color: "bg-red-600"
     },
-    { label: "Acceptance / Rejection", date: "30th September 2025", color: "bg-blue-600" },
-    { label: "Registration", date: "15th October 2025", color: "bg-green-600" },
-    { label: "Camera Ready Submission", date: "30th October 2025", color: "bg-yellow-600" },
+    { label: "Acceptance / Rejection", date: "15th October 2025", color: "bg-blue-600" },
+    { label: "Registration", date: "25th October 2025", color: "bg-green-600" },
+    { label: "Camera Ready Submission", date: "5th November 2025", color: "bg-yellow-600" },
     { label: "Conference Dates", date: "19–20th December 2025", color: "bg-pink-600" },
   ].map(({ label, oldDate, newDate, date, color }, index) => (
     <div key={index} className={`${color} rounded-xl py-6 px-4 text-center shadow-md`}>

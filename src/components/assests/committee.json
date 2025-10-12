@@ -3,7 +3,8 @@
     {
       "Sr.No.": 1,
       "Responsibility": "General Chair",
-      "Name_of_Faculty": "Dr. A. M. Mahalle (Principal)"
+      "Name_of_Faculty": "Dr. A. M. Mahalle (Principal)",
+      "img": "./organizing/principalsir.jpg"
     },
     {
       "Sr.No.": 2,
@@ -177,6 +178,26 @@
       "Sr.No.": 35,
       "Name_of_Faculty": "Mr. Rahul Sawant",
       "Responsibility": "Founder & Director Q-UP App Pune"
+    },
+    {
+      "Sr.No.": 36,
+      "Name_of_Faculty": "Mr. Vinit Kapoor",
+      "Responsibility": "Chief Architect, Persistent Systems Ltd, Nagpur"
+    },
+    {
+      "Sr.No.": 37,
+      "Name_of_Faculty": "Mr. Laxman Potbhare",
+      "Responsibility": "Principal Engineering Manager, Persistent Systems Ltd, Nagpur"
+    },
+    {
+      "Sr.No.": 38,
+      "Name_of_Faculty": "Dr. P. S. Deshpande",
+      "Responsibility": "Professor CSE, VNIT Nagpur"
+    },
+    {
+      "Sr.No.": 39,
+      "Name_of_Faculty": "Dr. U. A. Deshpande",
+      "Responsibility": "Professor CSE, VNIT Nagpur"
     }
   ]
 }
