@@ -2,7 +2,11 @@ import React from "react";
 
 const ImportantDates = () => {
   const dates = [
-    { title: "Full Paper Submission", date: "15th August 2025" },
+    {
+      title: "Full Paper Submission",
+      oldDate: "15th August 2025",
+      newDate: "CMT Paper Submission CLOSED",
+    },
     { title: "Acceptance/Rejection Notification", date: "30th September 2025" },
     { title: "Registration", date: "15th October 2025" },
     { title: "Final Paper/Camera Ready Submission", date: "30th October 2025" },
@@ -17,17 +21,22 @@ const ImportantDates = () => {
           Important Dates
         </h1>
         <ul className="space-y-4">
-          {dates.map(({ title, date }, index) => (
+          {dates.map(({ title, oldDate, newDate, date }, index) => (
             <li
               key={index}
               className="flex items-center justify-between bg-gray-100 p-4 rounded-lg hover:shadow-md transition"
             >
-              <span className="text-lg font-medium text-[#33358c]">
-                {title}
-              </span>
-              <span className="text-base font-semibold text-gray-800">
-                {date}
-              </span>
+              <span className="text-lg font-medium text-[#33358c]">{title}</span>
+              {oldDate && newDate ? (
+                <div className="flex flex-col items-end">
+                  <span className="line-through text-gray-500 text-sm">{oldDate}</span>
+                  <span className="bg-[#E30022] text-white px-3 py-1 rounded-full text-sm font-semibold shadow-sm">
+                    {newDate}
+                  </span>
+                </div>
+              ) : (
+                <span className="text-base font-semibold text-gray-800">{date}</span>
+              )}
             </li>
           ))}
         </ul>

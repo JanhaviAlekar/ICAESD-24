@@ -46,11 +46,20 @@ export const Hero = () => {
       </div>
 
       <div className="relative z-10 flex flex-col justify-center items-center text-center px-2 pt-2 pb-10">
+
+        {/* Date Update Banner */}
+        <div className="bg-yellow-300 text-black px-4 py-2 rounded-lg shadow-lg mb-4 flex items-center gap-3 animate-fadeIn">
+          <img src={newImg} alt="New" className="w-8 h-8  " />
+          <span className="font-semibold text-xl sm:text-base">
+            Review process will be updated by 15th October
+          </span>
+        </div>
+
         <h1 className="lg:text-5xl text-3xl font-semibold tracking-wide lg:font-[800] leading-tight mb-4">
           Government College of Engineering, Amravati
         </h1>
         <h5 className="lg:text-3xl my-2 font-semibold text-xl">Present's</h5>
-        <div className="relative flex justify-center items-center w-full  mb-4 pb-14">
+        <div className="relative flex justify-center items-center w-full mb-4 pb-14">
           <h3 className="mt-2 lg:text-6xl text-3xl font-bold lg:font-extrabold tracking-wide text-center">
             ICAIISD 2025
           </h3>
@@ -61,7 +70,7 @@ export const Hero = () => {
           />
         </div>
 
-        <p className="lg:text-3 text-2xl font-bold mt-7 text-yellow-300 pb-2" >
+        <p className="lg:text-3 text-2xl font-bold mt-7 text-yellow-300 pb-2">
           2<sup>nd</sup> International Conference on Artificial Intelligence (AI) Innovations for Societal Development
         </p>
         <p className="text-xl font-semibold mb-6">Date:&nbsp;&nbsp;19 & 20 December,&nbsp;&nbsp;2025</p>

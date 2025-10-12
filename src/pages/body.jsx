@@ -255,20 +255,26 @@ const Body = () => {
               </h2>
               <ul className="list-disc ml-6 space-y-4 text-lg leading-relaxed">
                 <li>
-                  <a
-                    className="text-[#000080] font-semibold inline-flex items-center hover:underline hover:text-blue-900 transition"
-                    href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/edit?usp=sharing"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    ICAIISD 2025 Paper Template Download from here
-                    <img
-                      className="h-4 w-4 ml-2"
-                      src={newImg}
-                      alt="Download Icon"
-                    />
-                  </a>
-                </li>
+  <a
+    className="text-[#000080] font-semibold flex items-center hover:underline"
+    href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/edit?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    ICAIISD 2025 Paper Template Download from here
+    <img className="h-4 ml-2" src={newImg} alt="New" />
+  </a>
+
+  {/* Download Button */}
+  <a
+    href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/export?format=docx"
+    download
+    className="mt-2 inline-block bg-[#000080] text-white px-4 py-2 rounded-lg shadow-md hover:bg-[#0000cc] transition"
+  >
+    📥 Download Word File
+  </a>
+</li>
+
               </ul>
             </section>
 
@@ -290,7 +296,7 @@ const Body = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                CMT submission link
+              CMT Paper Submission CLOSED
               </a>
               <p className="text-lg text-align-justify   font-medium leading-relaxed text-gray-800">
                 {" "}
@@ -375,7 +381,7 @@ const Body = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    CMT submission link
+                  CMT Paper Submission CLOSED
                   </a>
                 </li>
               </ul>

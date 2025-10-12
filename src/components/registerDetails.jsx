@@ -12,15 +12,27 @@ const RegsiterDetails = () => {
             <span className="underline underline-offset-8 decoration-4 decoration-white">ICAIISD</span> 2025 Paper Template
           </h1>
           <ul className="list-disc pl-6 text-lg font-medium">
-            <li className="flex items-center">
-              <a
-                href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/edit?usp=sharing"
-                className="hover:underline flex items-center"
-              >
-                ICAIISD 2025 Paper Template Download
-                <img src={newImg1} alt="New" className="h-5 ml-2" />
-              </a>
-            </li>
+            <li>
+  <a
+    className="text-[#000080] font-semibold flex items-center hover:underline"
+    href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/edit?usp=sharing"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    ICAIISD 2025 Paper Template Download from here
+    <img className="h-4 ml-2" src={newImg1} alt="New" />
+  </a>
+
+  {/* Download Button */}
+  <a
+    href="https://docs.google.com/document/d/1dq6NiwC2vTW_LgWzEIh98HpubL6kF5xntbyz2nofjq8/export?format=docx"
+    download
+    className="mt-2 inline-block bg-[#000080] text-white px-4 py-2 rounded-lg shadow-md hover:bg-[#0000cc] transition"
+  >
+    📥 Download Word File
+  </a>
+</li>
+
           </ul>
         </div>
 
